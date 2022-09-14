@@ -34,12 +34,12 @@ var isInViewport = function (elem) {
 	);
 };
 
-var findMe = document.querySelector('.find-me');
+var fadeinout = document.querySelector('.fadeinout');
 var circle = document.querySelectorAll('.circle');
 var circleChild = document.querySelectorAll('.circle h2');
 
 window.addEventListener('scroll', function (event) {
-	if (isInViewport(findMe)) {
+	if (isInViewport(fadeinout)) {
         circle.forEach((circle) => {
             circle.classList.add('animationC');
           });

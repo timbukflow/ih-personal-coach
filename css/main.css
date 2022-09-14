@@ -172,6 +172,7 @@ section.home {
   width: 50%;
 }
 /* Ende Loader */
+
 /* Start Methodik */
 
 .methodik {
@@ -181,10 +182,12 @@ section.home {
 }
 /* Start Circle */
 .mAnimationContainer {
-  /*background-color: #b3d4fc;*/
-  padding: 10px;
   position: relative;
-  height: 500px;
+  width: 150px;
+  height: 150px;
+  margin-top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .circle {
   position: absolute;
@@ -199,49 +202,40 @@ section.home {
   transition: 1.25s;
   text-align: center;
 }
+
 .c02 {transform: translate(-50%,-50%) rotate(180deg);}
 .c03 {transform: translate(-50%,-50%) rotate(-90deg);}
 .c04 {transform: translate(-50%,-50%) rotate(90deg);}
 
-.c01.animationC{
-  transform: translate(-50%, -40%);
-  opacity: 1; 
-}
-.c02.animationC{
-  transform:  translate(-50%, 40%) rotate(180deg);
-}
-.c03.animationC{
-  transform:  translate(-90%, 0%) rotate(-90deg);;
-  transition: 2s;
-}
-.c04.animationC{
-  transform:  translate(-10%, 0%) rotate(90deg);;
-  transition: 2s;
-}
+.c01.animationC{transform: translate(-50%, -40%);}
+.c02.animationC{transform:  translate(-50%, 40%) rotate(180deg);}
+.c03.animationC{transform:  translate(-90%, 0%) rotate(-90deg);;}
+.c04.animationC{transform:  translate(-10%, 0%) rotate(90deg);;}
 
 .circle h2 {
   opacity: 0;
   text-transform: uppercase;
   transition: 2s;
 }
-.t01 {transform: translate(0, -30px);}
-.t02 {transform: translate(0, -30px) rotate(180deg);}
-.t03 {transform: translate(0, -30px);}
-.t04 {transform: translate(0, -30px);}
+.t01, .t03 {transform: translate(0, -30px);}
+.t02, .t04 {transform: translate(0, -30px) rotate(180deg);}
 
 .t01.animationT,
-.t03.animationT,
-.t04.animationT  {
+.t03.animationT {
   opacity: 1;
   transform: translate(0, -60px);
   transition-delay: 1s;
 }
-.t02.animationT {
+.t02.animationT,
+.t04.animationT {
   opacity: 1;
   transform: translate(0, -60px) rotate(180deg);;
   transition-delay: 1s;
 }
 
+#find-me {
+  height: 800px;
+}
 
 /* Ende Methodik */
 

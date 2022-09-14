@@ -83,9 +83,169 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* ========================================================================== */
+
+@font-face {
+  font-family: 'Minion Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Minion Pro Regular'), url('../font/MinionPro-Regular.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Minion Pro Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Minion Pro Italic'), url('../font/MinionPro-It.woff') format('woff');
+}
+
+
+h1, h2 {
+  font-family: 'Minion Pro Regular', sans-serif;
+  font-size: normal;
+  font-weight: normal;
+  color: #89693E;
+}
+h2 {
+  font-size: 17px;
+  letter-spacing: .15rem;
+}
+
+
+header {
+  position: fixed;
+  z-index: 10;
+}
+main {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  height: 100vh;
+}
+section.home {
+  height: 100vh;
+}
+
+.slideshow {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
+  background: url(../img/ih-personal-coach-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Loader */
+.loader {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.iholder {
+  position: absolute;
+  opacity: 1;
+  z-index: 10;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logofade {
+  transition-timing-function: ease-in-out;
+  transition: 1.25s;
+}
+.disti01 {
+  transform: translateX(-20px);
+}
+.disti02 {
+  transform: translateX(24px);
+}
+.form01 {
+  width: 24px;
+}
+.fade {
+  width: 50%;
+}
+/* Ende Loader */
+/* Start Methodik */
+
+.methodik {
+  position: relative;
+  width: 80%;
+  margin: 10%;
+}
+/* Start Circle */
+.mAnimationContainer {
+  /*background-color: #b3d4fc;*/
+  padding: 10px;
+  position: relative;
+  height: 500px;
+}
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #89693E;
+  transition-timing-function: ease-in-out;
+  transition: 1.25s;
+  text-align: center;
+}
+.c02 {transform: translate(-50%,-50%) rotate(180deg);}
+.c03 {transform: translate(-50%,-50%) rotate(-90deg);}
+.c04 {transform: translate(-50%,-50%) rotate(90deg);}
+
+.c01.animationC{
+  transform: translate(-50%, -40%);
+  opacity: 1; 
+}
+.c02.animationC{
+  transform:  translate(-50%, 40%) rotate(180deg);
+}
+.c03.animationC{
+  transform:  translate(-90%, 0%) rotate(-90deg);;
+  transition: 2s;
+}
+.c04.animationC{
+  transform:  translate(-10%, 0%) rotate(90deg);;
+  transition: 2s;
+}
+
+.circle h2 {
+  opacity: 0;
+  text-transform: uppercase;
+  transition: 2s;
+}
+.t01 {transform: translate(0, -30px);}
+.t02 {transform: translate(0, -30px) rotate(180deg);}
+.t03 {transform: translate(0, -30px);}
+.t04 {transform: translate(0, -30px);}
+
+.t01.animationT,
+.t03.animationT,
+.t04.animationT  {
+  opacity: 1;
+  transform: translate(0, -60px);
+  transition-delay: 1s;
+}
+.t02.animationT {
+  opacity: 1;
+  transform: translate(0, -60px) rotate(180deg);;
+  transition-delay: 1s;
+}
+
+
+/* Ende Methodik */
+
+
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +420,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-

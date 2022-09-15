@@ -20,7 +20,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }, 2500)
 
     }) 
+});
 
+/*navbutton reverse*/
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll >= $('#navreverse').offset().top) {
+    $('button').addClass('reverse');
+  } else {
+    $('button').removeClass('reverse');
+  }
 });
 
 /*isinviewport*/
@@ -38,20 +47,21 @@ var fadeinout = document.querySelector('.fadeinout');
 var circle = document.querySelectorAll('.circle');
 var circleChild = document.querySelectorAll('.circle h2');
 
+
 window.addEventListener('scroll', function (event) {
 	if (isInViewport(fadeinout)) {
         circle.forEach((circle) => {
-            circle.classList.add('animationC');
-          });
-          circleChild.forEach((circleChild) => {
-            circleChild.classList.add('animationT');
-          });
+          circle.classList.add('animationC');
+        });
+        circleChild.forEach((circleChild) => {
+          circleChild.classList.add('animationT');
+        });
 	} else {
         circle.forEach((circle) => {
-            circle.classList.remove('animationC');
-          });
-          circleChild.forEach((circleChild) => {
-            circleChild.classList.remove('animationT');
-          });
-  }
+          circle.classList.remove('animationC');
+        });
+        circleChild.forEach((circleChild) => {
+          circleChild.classList.remove('animationT');
+        });
+  }  
 }, false);

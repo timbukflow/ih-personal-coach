@@ -22,6 +22,15 @@ window.addEventListener('DOMContentLoaded', ()=>{
     }) 
 });
 
+/*nav navigation*/
+$('#switch').click(function(){
+  $(".navcontainer").stop().fadeToggle(1000);
+  $('.navcontainer ul li').children().toggleClass('fadein')
+  $(this).text($(this).text() == 'Menu' ? 'Close' : 'Menu');
+});
+
+
+
 /*navbutton reverse*/
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();

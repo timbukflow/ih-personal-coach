@@ -19,10 +19,26 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body>  
+
+  <!--<div class="loader">
+        <svg class="iholder" viewBox="0 0 60 39">
+          <path class="i01" fill="#000" d="M20.5,39v-0.7c4.7-0.4,5.2-0.9,5.2-6.1V6.8c0-5.2-0.5-5.7-5.2-6.1V0h15v0.7c-4.7,0.4-5.2,0.9-5.2,6.1v25.4
+          c0,5.2,0.5,5.7,5.2,6.1V39H20.5z"/>
+          <path class="h01" fill="#000" d="M30.2,32.2c0,5.2,0.5,5.7,5.1,6.1V39H20.6v-0.7c4.4-0.4,4.9-0.9,4.9-6.1V6.8c0-5.2-0.5-5.7-4.9-6.1V0h14.2
+          v0.7c-4.2,0.4-4.6,0.8-4.6,6.1V32.2z"/>
+          <path class="h02" fill="#000" d="M25.7,6.8c0-5.2-0.5-5.7-4.8-6.1V0h14.5v0.7c-4.5,0.4-5,0.9-5,6.1v25.4c0,5.2,0.5,5.7,5.2,6.1V39H20.4v-0.7
+          c4.8-0.4,5.2-0.9,5.2-6.1V6.8z"/>
+          <rect class="h03" x="26" y="17.5" fill="#000" width="4" height="1.7"/>
+        </svg>
+      </div>-->
 
   <header>
     <div class="logo">
@@ -34,11 +50,6 @@
       </h1>
     </div>
   </header>
-  <nav>
-    <button>Contact</button>
-    <button>Menu</button>
-    <div></div>
-  </nav>
 
   <main>
     <section class="home">
@@ -46,45 +57,67 @@
         <div class="slidercolor"></div>
         <div class="slideshow01"></div>
       </div>
-      <!--<div class="loader">
-        <svg class="iholder" viewBox="0 0 60 39">
-          <path class="i01" fill="#000" d="M20.5,39v-0.7c4.7-0.4,5.2-0.9,5.2-6.1V6.8c0-5.2-0.5-5.7-5.2-6.1V0h15v0.7c-4.7,0.4-5.2,0.9-5.2,6.1v25.4
-          c0,5.2,0.5,5.7,5.2,6.1V39H20.5z"/>
-          <path class="h01" fill="#000" d="M30.2,32.2c0,5.2,0.5,5.7,5.1,6.1V39H20.6v-0.7c4.4-0.4,4.9-0.9,4.9-6.1V6.8c0-5.2-0.5-5.7-4.9-6.1V0h14.2
-          v0.7c-4.2,0.4-4.6,0.8-4.6,6.1V32.2z"/>
-          <path class="h02" fill="#000" d="M25.7,6.8c0-5.2-0.5-5.7-4.8-6.1V0h14.5v0.7c-4.5,0.4-5,0.9-5,6.1v25.4c0,5.2,0.5,5.7,5.2,6.1V39H20.4v-0.7
-          c4.8-0.4,5.2-0.9,5.2-6.1V6.8z"/>
-          <rect class="h03" x="26" y="17.5" fill="#000" width="4" height="1.7"/>
-        </svg>
-      </div>-->
     </section>
     <section id="navreverse">
       <article>
         <h1>
-          Unsere Methodik basiert auf grundlegendem Wissen kombiniert mit fortschrittlicher wissenschaftlicher Forschung. Die Vorgehens-weise nach dem Modell maximale Ergebnisse, minimaler Zeitaufwand und meiner 20 jährigen Erfahrung, führt ihren Körper zum Erfolg.
+          Unsere Methodik basiert auf grundlegendem Wissen kombiniert mit fortschrittlicher wissenschaftlicher Forschung. Die Vorgehensweise nach dem Modell maximale Ergebnisse, minimaler Zeitaufwand und meiner 20 jährigen Erfahrung, führt ihren Körper zum Erfolg.
         </h1>
-        <div class="fadeinout mAnimationContainer">
+        <div class="fadeinout circleContainer">
           <div class="circle c01">
-            <h2 class="t01">analysis</h2>
+            <h2 class="t01">Analysis</h2>
           </div>
           <div class="circle c02">
-            <h2 class="t02">correction</h2>
+            <h2 class="t02">Correction</h2>
           </div>
           <div class="circle c03">
-            <h2 class="t03">nutrition</h2>
+            <h2 class="t03">Nutrition</h2>
           </div>
           <div class="circle c04">
-            <h2 class="t04">movements</h2>
+            <h2 class="t04">Movements</h2>
           </div>
         </div>
-        <div id="find-me">Find me!</div>
+        <div class="methodContainer">
+          <div class="quarter">
+            <h2>Analysis</h2>
+            <p>Your body will be analyzed based on your blood count, weight and posture.</p>
+          </div>
+          <div class="quarter">
+            <h2>Correction</h2>
+            <p>with the movement and posture correction we create the basis of your training.</p>
+          </div>
+          <div class="quarter">
+            <h2>Nutrition</h2>
+            <p>description of the analysis.</p>
+          </div>
+          <div class="quarter">
+            <h2>Movements</h2>
+            <p>description of the analysis.</p>
+          </div>
+        </div>
       </article>
     </section>
       
-      <section>
-        <h1>Unsere Methodik basiert auf grundlegendem Wissen kombiniert mit fortschrittlicher wissenschaftlicher Forschung. Die Vorgehens-weise nach dem Modell maximale Ergebnisse, minimaler Zeitaufwand und meiner 20 jährigen Erfahrung, führt ihren Körper zum Erfolg.</h1> 
+    <section class="abstand">
+        <div></div>
     </section>
   </main>
+
+  <nav>
+    <div class="navbutton">
+      <button>Contact</button>
+      <button id="switch">Menu</button>
+    </div>
+    <div class="navcontainer">
+      <ul>
+        <li><a class="delay01" href=""> Methodik</a></li>
+        <li><a class="delay02" href=""> Personal Coach</a></li>
+        <li><a class="delay03" href=""> Location</a></li>
+        <li><a class="delay04" href=""> Movements</a></li>
+        <li><a class="delay05" href=""> Nutrition</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>

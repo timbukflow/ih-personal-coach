@@ -422,7 +422,8 @@ section.slidecontainer {
 }
 
 /* Start Targetgroup */
-#targetgroup {
+#targetgroup,
+#movementsystems {
   background-color: rgba(130, 100, 60, 0.75);
   
 }
@@ -499,7 +500,6 @@ section.slidecontainer {
 #movementsystems {
   height: 800px;
   width: 100%;
-  background-color: transparent;
   text-align: center;
 }
 #movementsystems h1,
@@ -530,6 +530,7 @@ section.slidecontainer {
   stroke-width:2px; 
   stroke-miterlimit:10;
 }
+
  
 /* Start personalcoach */
 

@@ -62,9 +62,10 @@ textarea {
 
 h1, h2, h3, a, button {
   font-family: 'MinionDisplayRegular';
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 100;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
   line-height: 1.25;
   color: #82643C;
   text-decoration: none;
@@ -74,7 +75,6 @@ h1, h2, h3, a, button {
   font-weight: 200;
   font-size: 25px;
   color: #ffffff;
-  opacity: 0.75;
 }
 h2 {
   font-size: 17px;
@@ -267,7 +267,7 @@ article {
   z-index: 2;
 }
 
-section.home {
+section.slidecontainer {
   top: 0;
   position: fixed;
   height: 100vh;
@@ -278,19 +278,45 @@ section.home {
   width: 100%;
   height: 100vh;
   background-color: #82643C;
-  opacity: 0.1;
+  opacity: 0.3;
   position: absolute;
   z-index: 10;
 }
 
-.slideshow01 {
+.slideimg01 {
   width: 100%;
   height: 100vh;
-  position: relative;
+  position: absolute;
+  z-index: 8;
   background: url('../img/ih-personal-coach-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.slideimg02 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 9;
+  background: url('../img/ih-personal-coach-02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slidefade ease-in-out 21s infinite;
+  animation-delay: 3s;
+  opacity: 0;
+}
+
+@keyframes slidefade {
+  
+  0%    {opacity: 0;}
+  20%   {opacity: 1;} 
+  50%   {opacity: 1;}
+  70%   {opacity: 0;}
+  100%  {opacity: 0;} 
+}
+
+
+
 
 
 /* Loader */
@@ -428,18 +454,83 @@ section.home {
 .accList {
   display: none;
 }
-.accordion img {
-  float: right;
-  width: 20px;
-  margin-top: 5px;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-}
 
 .accX {
   transform: rotate(45deg);
 }
 
+/* Start teaser */
+
+#teaser {
+  position: relative;
+  top: 100vh;
+  height: 800px;
+  width: 100%;
+  z-index: 2;
+  display: block;
+  background-color: transparent;
+}
+.pulsing {
+  position: absolute;
+  border: #ffffff solid 1px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  transform-origin: center;
+  animation: pulsing ease-in-out 3s infinite;
+}
+
+@keyframes pulsing {
+  0%    {transform: scale(1);}
+  50%   {transform: scale(1.4);} 
+  100%  {transform: scale(1);} 
+}
+
+.pulsing img {
+  margin: 14px;
+}
+.pos01 {top: 20%; left: 30%;}
+.pos02 {top: 50%; left: 60%;}
+.pos03 {top: 70%; left: 20%;}
+
+/* Start movementsystem */
+
+#movementsystems {
+  height: 800px;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+#movementsystems h1,
+#movementsystems h2,
+#movementsystems p
+ {
+  color: #ffffff;
+}
+.header {
+  padding: 0 15% 50px;
+}
+.four {
+  position: relative;
+  width: 25%;
+  height: 50px;
+  
+  float: left;
+  display: inline-block;
+}
+.msicon {
+  margin: 40px 30% 20px;
+}
+.msicon circle,
+.msicon path,
+.msicon line {
+  fill:none; 
+  stroke:#ffffff; 
+  stroke-width:2px; 
+  stroke-miterlimit:10;
+}
+ 
 /* Start personalcoach */
 
 #personalcoach {
@@ -472,15 +563,8 @@ section.home {
 
 
 /* TESTER */
-.white {
-  width: 100%;
-}
-.holder {
-  height: 800px;
-  width: 100%;
-  position: relative;
-  top: 100vh;
-}
+
+
 
 
 /* ==========================================================================

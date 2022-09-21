@@ -73,8 +73,16 @@ h1, h2, h3, a, button {
 .description h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
+  text-transform: none;
+  letter-spacing: 0.1rem;
   font-size: 25px;
   color: #ffffff;
+}
+
+#navreverse h1 {
+  text-transform: none;
+  font-size: 34px;
+  letter-spacing: 0.1rem;
 }
 h2 {
   font-size: 17px;

@@ -89,6 +89,7 @@ h2 {
   letter-spacing: .2rem;
   text-transform: uppercase;
 }
+
 p {
   font-size: 19px;
   font-weight: 200;
@@ -360,9 +361,6 @@ section.slidecontainer {
 }
 /* Ende Loader */
 
-/* Start Methodik */
-
-
 
 /* Start Circle */
 .circleContainer {
@@ -425,7 +423,7 @@ section.slidecontainer {
   display: inline-block;
 }
 .quarter {
-  width: 25%;
+  width: 50%;
   float: left;
 }
 
@@ -433,8 +431,8 @@ section.slidecontainer {
 #targetgroup,
 #movementsystems {
   background-color: rgba(130, 100, 60, 0.75);
-  
 }
+
 #targetgroup h2, #targetgroup h3,
 #targetgroup p {
   color: #fff;
@@ -505,8 +503,8 @@ section.slidecontainer {
 
 /* Start movementsystem */
 
-#movementsystems {
-  height: 800px;
+#movementsystems,
+#nutrition {
   width: 100%;
   text-align: center;
 }
@@ -519,14 +517,39 @@ section.slidecontainer {
 .header {
   padding: 0 15% 50px;
 }
-.four {
+.three{
   position: relative;
-  width: 25%;
-  height: 50px;
-  
-  float: left;
+  width: 33%;
+  padding: 20px;
   display: inline-block;
 }
+.four {
+  position: relative;
+  width: 24%;
+  display: inline-block;
+}
+.nicon {
+  margin: 40px 30% 20px;
+}
+.nicon circle,
+.nicon path,
+.nicon line {
+  fill:none; 
+  stroke: #82643C; 
+  stroke-width:1px; 
+  stroke-miterlimit:10;
+}
+.nicon circle {
+  transform-origin: center;
+  animation: icond ease-in-out 3s infinite;
+}
+
+@keyframes icond {
+  0%    {opacity: 1;}
+  50%   {opacity: 0.25;} 
+  100%  {opacity: 1;}
+}
+
 .msicon {
   margin: 40px 30% 20px;
 }
@@ -539,6 +562,27 @@ section.slidecontainer {
   stroke-miterlimit:10;
 }
 
+.morebutton {
+  position: relative;
+  margin: auto;
+  border: #82643C solid 1px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.morebutton img {
+  margin: 14px;
+}
+.morebutton:hover {
+  border-radius: 0%;
+}
+
+.hiddencontent {
+  display: none;
+}
  
 /* Start personalcoach */
 

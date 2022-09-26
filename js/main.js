@@ -84,3 +84,14 @@ $('.accTitle').click(function() {
   $('.accList').not($accContent).slideUp(400);
   $accContent.stop(true, false).slideToggle(400);
 });
+
+// more
+$('.morebutton').click(function() {
+  var seemore = $(this).attr("data-toggle");
+  $(seemore).slideToggle(500);
+  $(this).children('img').toggleClass('accX');
+
+  if ($(seemore).is(":visible")) {
+      $('html,body').animate({scrollTop:$(seemore).offset().top}, 1000);
+  }
+});

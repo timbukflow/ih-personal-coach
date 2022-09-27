@@ -459,9 +459,13 @@ section.slidecontainer {
 }
 
 /* Start movementsystem */
+#movementsystems {
+  background-color: rgba(130, 100, 60, 0.75);
+}
 
 #movementsystems,
-#nutrition {
+#nutrition,
+#personalcoach {
   width: 100%;
   text-align: center;
 }
@@ -638,11 +642,6 @@ section.slidecontainer {
   display: inline-block;
   border-left: #82643C solid 1px;
 }
-
-
-
-/* TESTER */
-
 
 
 

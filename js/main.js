@@ -95,3 +95,10 @@ $('.morebutton').click(function() {
       $('html,body').animate({scrollTop:$(seemore).offset().top}, 1000);
   }
 });
+
+// hover
+$('.supplus').hover(function() {
+  var suppmore = $(this).attr("data-toggle");
+  $(suppmore).stop(true, false).fadeToggle('slow');
+  $(this).children('img').toggleClass('accX');
+});

@@ -64,7 +64,7 @@ h1, h2, h3, a, button {
   font-family: 'MinionDisplayRegular';
   font-size: 30px;
   font-weight: 100;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
   line-height: 1.25;
   color: #82643C;
@@ -79,7 +79,7 @@ h1, h2, h3, a, button {
   color: #ffffff;
 }
 
-#navreverse h1 {
+h1.firstlast {
   text-transform: none;
   font-size: 34px;
   letter-spacing: 0.1rem;
@@ -91,8 +91,8 @@ h2 {
 }
 
 p {
-  font-size: 19px;
-  font-weight: 200;
+  font-size: 17px;
+  font-weight: 300;
   color: #646464;
   letter-spacing: 0.5px;
   font-family: 'Raleway', sans-serif;
@@ -183,13 +183,11 @@ nav ul {
   transform: translateY(-50%);
 }
 
-nav li,
-.navfooter li {
+nav li {
   margin: 40px 0;
 }
 
-nav a,
-.navfooter a {
+nav a {
   font-size: 26px;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -212,13 +210,19 @@ nav a.fadein {
 .delay05 {transition-delay: 0.5s;}
 
 /* Start Footer */
+.footerone{
+  width: 30%;
+  display: inline-block;
+}
+.footertwo {
+  width: 69%;
+  display: inline-block;
+}
 .logofooter {
   width: 150px;
-  margin-top: 40px;
 }
-
-.calltoaction {
-margin-top: 88px;
+.logofooter img {
+  vertical-align: bottom;
 }
 
 footer button {
@@ -229,8 +233,8 @@ footer button {
   transition: 0.5s ease-in-out;
   margin: 0 10px;
   cursor: pointer;
-  display: block;
-  margin: 10px 0 0 0;
+  margin: 0 10px 0 0;
+  display: inline-block;
 }
 
 footer button a {
@@ -238,20 +242,6 @@ footer button a {
   letter-spacing: .2rem;
   font-size: 17px;
 }
-
-.navfooter a {
-  color: #82643C;
-  opacity: 1;
-  margin-left: 0%;
-}
-
-.navfooter ul {
-  list-style: none;
-  padding: 0;
-  position: relative;
-  width: 100%;
-}
-
 
 main {
   position: relative;
@@ -379,13 +369,18 @@ section.slidecontainer {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 1px solid #89693E;
+  border: 1px solid #82643C;
   transition-timing-function: ease-in-out;
   transition: 1.25s;
   text-align: center;
 }
-.circle:hover {
-  background-color: #82643C;
+
+.c01 {
+  background-image: radial-gradient(#82643C 0.5px, transparent 0.5px);
+  background-size: 5px 5px;
+}
+.c02 {
+  background-color: rgba(130, 100, 60, 0.1);
 }
 
 .c02 {transform: translate(-50%,-50%) rotate(180deg);}
@@ -422,10 +417,6 @@ section.slidecontainer {
   margin-top: 50px;
   display: inline-block;
 }
-.quarter {
-  width: 50%;
-  float: left;
-}
 
 /* Start Targetgroup */
 #targetgroup,
@@ -441,6 +432,7 @@ section.slidecontainer {
 .half {
   width: 50%;
   float: left;
+  padding-left: 30px;
 }
 .accContainer {
   margin-left: 50px;
@@ -466,41 +458,6 @@ section.slidecontainer {
   transform: rotate(45deg);
 }
 
-/* Start teaser */
-
-#teaser {
-  position: relative;
-  top: 100vh;
-  height: 800px;
-  width: 100%;
-  z-index: 2;
-  display: block;
-  background-color: transparent;
-}
-.pulsing {
-  position: absolute;
-  border: #ffffff solid 1px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  transform-origin: center;
-  animation: pulsing ease-in-out 3s infinite;
-}
-
-@keyframes pulsing {
-  0%    {transform: scale(1);}
-  50%   {transform: scale(1.4);} 
-  100%  {transform: scale(1);} 
-}
-
-.pulsing img {
-  margin: 14px;
-}
-.pos01 {top: 20%; left: 30%;}
-.pos02 {top: 50%; left: 60%;}
-.pos03 {top: 70%; left: 20%;}
-
 /* Start movementsystem */
 
 #movementsystems,
@@ -518,12 +475,6 @@ section.slidecontainer {
   padding: 0 15% 50px;
 }
 
-.nimg {
-  width: 50%;
-  float: left;
-}
-
-
 .three{
   position: relative;
   width: 33%;
@@ -533,6 +484,7 @@ section.slidecontainer {
 .four {
   position: relative;
   width: 24%;
+  margin-bottom: 30px;
   display: inline-block;
 }
 .nicon {
@@ -563,7 +515,8 @@ section.slidecontainer {
 }
 .msicon circle,
 .msicon path,
-.msicon line {
+.msicon line,
+.msicon polyline {
   fill:none; 
   stroke:#ffffff; 
   stroke-width:2px; 
@@ -573,6 +526,7 @@ section.slidecontainer {
 .morebutton {
   position: relative;
   margin: auto;
+  margin-top: 50px;
   border: #82643C solid 1px;
   border-radius: 50%;
   width: 50px;
@@ -580,6 +534,9 @@ section.slidecontainer {
   opacity: 0.5;
   transition: 0.5s ease-in-out;
   cursor: pointer;
+}
+.morebutton.white {
+  border: #ffffff solid 1px;
 }
 
 .morebutton img {
@@ -592,6 +549,66 @@ section.slidecontainer {
 .hiddencontent {
   display: none;
 }
+
+/* Start supplements */
+
+#supplements {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.supplus { 
+  position: absolute;
+  cursor: pointer;
+  border: #ffffff solid 1px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  transform-origin: center;
+  transition: 3s ease-in-out;
+  animation: pulsing ease-in-out 3s infinite;
+}
+.supplus img {
+  margin: 14px;
+  transition: 0.5s ease-in-out;
+}
+@keyframes pulsing {
+  0%    {opacity: 1;}
+  50%   {opacity: 0.5;} 
+  100%  {opacity: 1;} 
+}
+.pos01 {top: 10%; left: 25%;}
+.pos02 {top: 35%; left: 10%;}
+.pos03 {top: 55%; left: 35%;}
+.pos04 {top: 10%; left: 75%;}
+.pos05 {top: 45%; left: 60%;}
+.pos06 {top: 75%; left: 85%;}
+
+.supinfo {
+  position: absolute;
+  display: none;
+  background: #ffffff;
+  padding: 75px 200px 75px 75px;
+  margin: 20px;
+  left: 50%;
+  top: 0;
+  height: calc(100% - 40px);
+  width: calc(50% - 40px);
+  z-index: 10;
+  text-align: left;
+}
+.right {
+  left: 0%;
+}
+
+.nimg {
+  width: 50%;
+  float: left;
+}
+
  
 /* Start personalcoach */
 

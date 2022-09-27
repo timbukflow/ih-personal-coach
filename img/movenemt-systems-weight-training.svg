@@ -3,9 +3,7 @@
 <svg version="1.0" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 161 281" enable-background="new 0 0 161 281" xml:space="preserve">
 <circle fill="none" stroke="#80643C" stroke-miterlimit="10" cx="80.5" cy="200.5" r="80"/>
+<path fill="none" stroke="#80643C" stroke-miterlimit="10" d="M0.5,200.5c0,35.3,35.8,64,80,64s80-28.7,80-64"/>
 <circle fill="none" stroke="#80643C" stroke-miterlimit="10" cx="80.5" cy="80.5" r="80"/>
-<path fill="none" stroke="#80643C" stroke-miterlimit="10" d="M5.6,108.6c4.8,0.9,9.8,1.4,14.9,1.4c44.2,0,80-35.8,80-80
-	c0-9.9-1.8-19.3-5.1-28.1"/>
-<path fill="none" stroke="#80643C" stroke-miterlimit="10" d="M65.6,1.9c-3.3,8.7-5.1,18.2-5.1,28.1c0,44.2,35.8,80,80,80
-	c5.1,0,10.1-0.5,14.9-1.4"/>
+<path fill="none" stroke="#80643C" stroke-miterlimit="10" d="M0.5,80.5c0,35.3,35.8,64,80,64s80-28.7,80-64"/>
 </svg>

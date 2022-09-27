@@ -517,6 +517,13 @@ section.slidecontainer {
 .header {
   padding: 0 15% 50px;
 }
+
+.nimg {
+  width: 50%;
+  float: left;
+}
+
+
 .three{
   position: relative;
   width: 33%;
@@ -539,9 +546,10 @@ section.slidecontainer {
   stroke-width:1px; 
   stroke-miterlimit:10;
 }
-.nicon circle {
+.nicon circle,
+.msicon circle {
   transform-origin: center;
-  animation: icond ease-in-out 3s infinite;
+  animation: icond ease-in-out 5s infinite;
 }
 
 @keyframes icond {
@@ -573,6 +581,7 @@ section.slidecontainer {
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
+
 .morebutton img {
   margin: 14px;
 }

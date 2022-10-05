@@ -96,3 +96,15 @@ $('.supplus').hover(function() {
   $(suppmore).stop(true, false).fadeToggle('slow');
   $(this).children('img').toggleClass('accX');
 });
+
+// impressum
+
+$('.impressum').click(function() {
+  var totoggle = $(this).attr("data-toggle");
+  $(totoggle).slideToggle(500);
+  $(totoggle).next().hide();
+
+  if ($(totoggle).is(":visible")) {
+      $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
+  }
+});

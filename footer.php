@@ -1,7 +1,9 @@
 <footer>
 
   <div class="footerone">
-    <img src="./img/ih-personal-coach-logo-gold.svg" alt="ih personal coach logo">
+    <a href="index">
+      <img src="./img/ih-personal-coach-logo-gold.svg" alt="ih personal coach logo">
+    </a>
   </div>
 
   <div class="footertwo">
@@ -11,15 +13,23 @@
 			<li><a href="https://www.instagram.com/">Instagramm</a></li>
 		</ul>
     <ul class="footernav fnright">
-			<li><a href="index">Method</a></li>
+			<li><a href="index#method">Method</a></li>
 			<li><a href="movement">Movement</a></li>
 			<li><a href="personal-coach">Personal Coach</a></li>
       <li><a href="nutrition">Nutrition</a></li>
 		</ul>
   </div>
-  
+
   <div class="footerthree">
     <a class="impressum" data-toggle="#impressum">Impressum</a>
   </div>
 
 </footer>
+<div id="impressum">
+  <ul class="">
+    <li><a href="https://www.schwizerschlatter.com" target="_blank">Schwizer Design GmbH</a></li>
+		<li><a href="https://goo.gl/maps/ZL9cF1SMuHzRdcr69">Davidstrasse 45, 9000 St.Gallen</a></li>
+		<li><a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a></li>
+    <li><a href="index">Copyright 2022 IH Personal Coach. All rights reserved</a></li>
+	</ul>
+</div>

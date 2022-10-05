@@ -582,11 +582,21 @@ footer {
   bottom: 50px;
   left: 5%;
 }
-  .impressum {
+  
+.impressum,
+#impressum a {
     opacity: 0.5;
     font-size: 14px;
-  }
+}
 
+#impressum {
+  position: relative;
+  background-color: #f2efec;
+  display: none;
+  width: 100%;
+  z-index: 2;
+  padding: 0 5% 50px;
+}
 
 
 

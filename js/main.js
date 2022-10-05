@@ -1,5 +1,5 @@
 //loading//
-
+/*
 let i01 = document.querySelector('.i01');
 let h02 = document.querySelector('.h02');
 let h03 = document.querySelector('.h03');
@@ -20,22 +20,21 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }, 2500)
 
     }) 
-});
+});*/
 
-// nav navigation //
-$('#switch').click(function(){
-  $(".navcontainer").stop().fadeToggle(1000);
+// nav  //
+$('.navbutton').click(function(){
+  $('.navcontainer').stop().fadeToggle(1000);
   $('.navcontainer ul li').children().toggleClass('fadein')
-  $(this).text($(this).text() == 'Menu' ? 'Close' : 'Menu');
 });
 
-// navbutton reverse //
+// nav reverse //
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
-  if (scroll >= $('#navreverse').offset().top) {
-    $('button').addClass('reverse');
+  if (scroll >= $('#navchange').offset().top) {
+    $('.nccolor').addClass('reverse');
   } else {
-    $('button').removeClass('reverse');
+    $('.nccolor').removeClass('reverse');
   }
 });
 
@@ -75,11 +74,6 @@ window.addEventListener('scroll', function (event) {
 
 // accordion 
 $('.accTitle').click(function() {
-
-  $accCross = $(this).children('img');
-  $('.accCross').not($accCross).removeClass('accX');
-  $(this).children('img').toggleClass('accX');
-
   $accContent = $(this).next('.accList');
   $('.accList').not($accContent).slideUp(400);
   $accContent.stop(true, false).slideToggle(400);

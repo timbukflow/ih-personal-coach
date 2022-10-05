@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <main id="navchange">
+  <main id="">
     <section id="personal-coach"> 
       <article>
         <header>

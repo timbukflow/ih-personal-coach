@@ -25,7 +25,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
 // nav  //
 $('.navbutton').click(function(){
   $('.navcontainer').stop().fadeToggle(1000);
-  $('.navcontainer ul li').children().toggleClass('fadein')
+  $('.nccolor').addClass('reverse');
+});
+$('.navbutton').hover(function(){
+  $('.nccolor').toggleClass('hnav');
 });
 
 // nav reverse //
@@ -33,44 +36,27 @@ $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll >= $('#navchange').offset().top) {
     $('.nccolor').addClass('reverse');
+    $('.ihlogo').addClass('reverse-ih');
+    $('.pc').fadeOut(500);
   } else {
     $('.nccolor').removeClass('reverse');
+    $('.ihlogo').removeClass('reverse-ih');
+    $('.pc').fadeIn(1000);
   }
 });
 
-// isinviewport //
-var isInViewport = function (elem) {
-	var distance = elem.getBoundingClientRect();
-	return (
-		distance.top >= 0 &&
-		distance.left >= 0 &&
-		distance.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-		distance.right <= (window.innerWidth || document.documentElement.clientWidth)
-	);
-};
+// hover method
+$('.circle').hover(function() {
+  $('.circle').stop(true, false).toggleClass('cpassiv');
+  $(this).stop(true, false).toggleClass('chover');
+});
 
-var fadeinout = document.querySelector('.fadeinout');
-var circle = document.querySelectorAll('.circle');
-var circleChild = document.querySelectorAll('.circle h2');
+// hover footer nav
+$('.fn-three').hover(function() {
+  var hoverfn = $(this).attr('data-toggle');
+  $(hoverfn).toggleClass('chover');
+});
 
-
-window.addEventListener('scroll', function (event) {
-	if (isInViewport(fadeinout)) {
-        circle.forEach((circle) => {
-          circle.classList.add('animationC');
-        });
-        circleChild.forEach((circleChild) => {
-          circleChild.classList.add('animationT');
-        });
-	} else {
-        circle.forEach((circle) => {
-          circle.classList.remove('animationC');
-        });
-        circleChild.forEach((circleChild) => {
-          circleChild.classList.remove('animationT');
-        });
-  }  
-}, false);
 
 // accordion 
 $('.accTitle').click(function() {
@@ -81,7 +67,7 @@ $('.accTitle').click(function() {
 
 // more
 $('.morebutton').click(function() {
-  var seemore = $(this).attr("data-toggle");
+  var seemore = $(this).attr('data-toggle');
   $(seemore).slideToggle(500);
   $(this).children('img').toggleClass('accX');
 

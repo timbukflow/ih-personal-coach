@@ -77,7 +77,7 @@
         <img class="nimg" src="./img/ih-personal-coach-nutrition-lachs-01.jpg" alt="ih-personal-coach-nutrition-lachs">
       </div>
       <article>
-        <h2>Your personal meal plan</h2>
+        <h2 class="pagesubtitle">Your personal meal plan</h2>
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo ea rebum.
         </p>

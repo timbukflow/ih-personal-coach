@@ -1,9 +1,7 @@
-<footer>
+<footer id="footer">
 
   <div class="footerone">
-    <a href="index">
-      <img src="./img/ih-personal-coach-logo-gold.svg" alt="ih personal coach logo">
-    </a>
+    <h2>Ilya Holzscheiter <span>Personal Coach</span> </h2>
   </div>
 
   <div class="footertwo">

@@ -9,27 +9,32 @@
 </head>
 
 <body>
-  <main id="">
+  <main id="navchange">
     <section id="personal-coach"> 
       <article>
         <header>
-          <h1 class="pagetitle">Personal Coach</h1>
+          <h1 class="pagetitle">Personal<br>Coach</h1>
           <p>
             My start point is Königsberg . At the age of four, my parents took me to gymnastics in order to improve my posture, but after 5 years I took part in international tournaments , and at 16 I became a master of sports . While studying at the university , majoring in "medical and biological disciplines", I began to engage in professional fitness , with coaches who trained European and World champions , where I acquired a more meaningful approach to sports activities, attitude to the body and maintaining health. Over the course of my twenty-year coaching career, I have gained my own experience, following new trends, introducing new classes , studying new achievements in medicine and science . As a vice-champion of Europe, I am also well aware of nutrition , and how its important for health and achieving goals. I through my solid education and my great experience in the fitness industry, I had the opportunity to work with various celebrities. I was a vip fitness coach for years. I was able to develop even deeper into my material and was able to acquire a well-founded basis knowledge.
           </p>
-          <div class="pcimgc">
-            <img src="./img/ih-personal-coach-ilya-holzscheiter.jpg" alt="ih-personal-coach-ilya-holzscheiter-portrait">
-          </div>
         </header>
       </article>
+      <div class="pcimgc">
+        <img src="./img/ih-personal-coach-ilya-holzscheiter.jpg" alt="ih-personal-coach-ilya-holzscheiter-portrait">
+        <div class="quots">
+          <p>
+           "It is scientifically proven that regular physical activity not only kills depression at the root, but also increases mindfulness, concentration and speed of the brain" <br> <span>Ilya Holzscheiter</span> 
+          </p>
+        </div>
+      </div>
       <article>
-        <h1 class="pagetitle">Location</h1>
+        <h2 class="pagesubtitle">Location</h2>
         <p>
           Das Training findet individuell und nach ihren Bedürfnissen statt. In der morgendämmerung Laufen im Park, das sonntägliche mobilitätstraining in Ihrem Wohnzimmer, schmerzlindernde Rückenübungen im Fitnessstudio. Der Ort und Zeitraum wird ganz auf Ihren Lebensrytmus angepasst um das Training harmonisch in Ihren Tag einfliessen zu lassen. Das Online-Training ist auf dem gleichen Fundament aufgebaut wie das Personal Training mit dem unterschied das es ortsunabhängig von Ihrem Coach stattfinden kann, ob sie sich gerade auf ihrer Yacht im Mittelmeer befinden, auf Geschäftsreise in New York oder Ihr Wohnort in Dubai ist, die Begleitung ihrer Transformation findet keinen unterbruch oder Qualitätsminderung.
         </p>
       </article>
       <article>
-        <h1 class="pagetitle">Targedgroup</h1>
+        <h2 class="pagesubtitle">Targedgroup</h2>
         <p>
           Das Training findet individuell und nach ihren Bedürfnissen statt. In der morgendämmerung Laufen im Park, das sonntägliche mobilitätstraining in Ihrem Wohnzimmer, schmerzlindernde Rückenübungen im Fitnessstudio. Der Ort und Zeitraum wird ganz auf Ihren Lebensrytmus angepasst um das Training harmonisch in Ihren Tag einfliessen zu lassen. Das Online-Training ist auf dem gleichen Fundament aufgebaut wie das Personal Training mit dem unterschied das es ortsunabhängig von Ihrem Coach stattfinden kann, ob sie sich gerade auf ihrer Yacht im Mittelmeer befinden, auf Geschäftsreise in New York oder Ihr Wohnort in Dubai ist, die Begleitung ihrer Transformation findet keinen unterbruch oder Qualitätsminderung.
         </p>
@@ -66,6 +71,7 @@
           </div>
         </div>
       </article>
+    </section>
     <?php include 'footermenu.php'; ?><style> #fm-personal-coach { display: none; } </style>
   </main>
 

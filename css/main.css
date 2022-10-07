@@ -68,29 +68,44 @@ h1, h2, h3, p, a {
   text-align: center;
   text-decoration: none;
 }
-h1 {
-  font-size: 30px;
-  letter-spacing: 0.035em;
-  margin: 5% 10% 10%;
+
+
+h1.pagetitle {
+  font-size: 80px;
+  letter-spacing: 1.25rem;
+  text-transform: uppercase;
+  margin: 50px 0px 0px;
+  line-height: 1.1;
 }
 
 .description h1 {
   text-transform: none;
+  text-align: left;
   letter-spacing: 0.1rem;
-  font-size: 25px;
-  color: #ffffff;
+  font-size: 30px;
+  color: #f2efec;
 }
 
-h2, .pagetitle {
-  font-size: 17px;
+h2, h3 {
+  font-size: 16px;
   letter-spacing: .2rem;
   text-transform: uppercase;
   margin: 0px 10% 40px;
 }
+h3 {
+  margin: 0;
+}
+
+h2.pagesubtitle {
+  font-size: 36px;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+  margin: 30px 0px 30px;
+}
 
 p {
-  font-size: 21px;
-  color: #b6b6b6;
+  font-size: 22px;
+  color: #958876;
   letter-spacing: 0.5px;
   margin-left: 10%;
   margin-right: 10%;
@@ -98,6 +113,17 @@ p {
 
 p.negativfont {
   letter-spacing: 0.75px;
+}
+.quots p {
+  font-size: 26px;
+  color: #f2efec;
+}
+.quots span, span {
+  font-size: 16px;
+  letter-spacing: .2rem;
+  margin-top: 25px;
+  display: block;
+  text-transform: uppercase;
 }
 
 a {
@@ -120,22 +146,12 @@ header.home {
   width: 100%;
   height: 100vh;
 }
-header .hcontainer {
-  position: absolute;
-  bottom: 50px;
-  left: 10%;
-  right: 10%;
-  z-index: 2;
-}
-.logo {
-  width: 450px;
-  margin-bottom: 25vh;
-}
 .description {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  margin: 0 0 0 50%;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 40%;
+  z-index: 2;
 }
 
 /* slideshow */
@@ -198,7 +214,7 @@ main {
 
 article {
   padding-top: 50px;
-  margin: 80px 10% 50px;
+  margin: 50px 10% 50px;
   width: 80%;
   position: relative;
   display: inline-block;
@@ -212,74 +228,65 @@ article::before {
   width: 1px;
   position: absolute;
   top: -80px;
-  left: calc(50% - 1px);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 
 /* methodik */
 
+ #method {
+  background-color: #f2efec4d;
+ }
 .circleContainer {
   position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 170px 0 270px;
+  width: 500px;
+  height: 500px;
+  margin: 50px 0;
   left: 50%;
   transform: translateX(-50%);
 }
 .circle {
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 50%;
   transform: translate(-50%,-50%);
-  width: 240px;
-  height: 240px;
+  width: 45%;
+  height: 45%;
   border-radius: 50%;
   border: 1px solid #82643C;
-  transition-timing-function: ease-in-out;
-  transition: 1.25s;
   text-align: center;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-.c03 {opacity: 0.4; transform: translate(-50%,-50%) rotate(-90deg);}
-.c02 {opacity: 0.4; transform: translate(-50%,-50%) rotate(180deg);}
-.c04 {opacity: 0.4; transform: translate(-50%,-50%) rotate(90deg);}
+.c01{transform: translate(-50%, -80%);}
+.c02{transform: translate(-50%, -20%) rotate(180deg);}
+.c03{transform: translate(-80%, -50%) rotate(-90deg);}
+.c04{transform: translate(-20%, -50%) rotate(90deg);}
 
-.c01.animationC{transform: translate(-50%, -40%);}
-.c02.animationC{transform: translate(-50%, 40%) rotate(180deg);}
-.c03.animationC{transform: translate(-90%, 0%) rotate(-90deg);}
-.c04.animationC{transform: translate(-10%, 0%) rotate(90deg);}
+.t01, .t03 {transform: translate(0, -200%);}
+.t02, .t04 {transform: translate(0, -200%) rotate(180deg);}
 
-.circle h2 {
-  opacity: 0;
-  transition: 2s;
+.cpassiv {
+  opacity: 0.5;
 }
-.t01, .t03 {transform: translate(0, -30px);}
-.t02, .t04 {transform: translate(0, -30px) rotate(180deg);}
-
-.t01.animationT,
-.t03.animationT {
+.chover {
+  background-color: #82643c1a;
   opacity: 1;
-  transform: translate(0, -60px);
-  transition-delay: 1s;
-}
-.t02.animationT,
-.t04.animationT {
-  opacity: 1;
-  transform: translate(0, -60px) rotate(180deg);;
-  transition-delay: 1s;
+  width: 50%;
+  height: 50%;
 }
 
-.methodContainer {
-  width: 100%;
-  margin-top: 50px;
-  display: inline-block;
-}
+
 
 /* movement*/
 
-#movement {
-  background-color: #f2efec;
-  margin-top: 50vh;
+#movement,
+#nutrition,
+#personal-coach {
+  background-color: #f2efec4d;
+  margin-top: 25vh;
 }
 .three {
   position: relative;
@@ -414,10 +421,20 @@ article::before {
  
 }
 .pcimgc {
-  margin-top: 100px;
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  width: 100%;
 }
 .pcimgc img {
   width: 100%;
+}
+
+.quots {
+  position: absolute;
+  bottom: 50%;
+  right: 5%;
+  width: 40%;
 }
 
 /* targetgroup */
@@ -450,34 +467,57 @@ nav {
   left: 0;
 }
 .headerlogo {
-  width: 20%;
   top: 60px;
   left: 5%;
   position: absolute;
+  text-align: left;
 }
+.svglogo {
+  width: 75px;
+}
+h2.pc, h2.pcgold {
+ text-align: left;
+ font-size: 17px;
+ margin: 0 0 0 10px;
+ display: inline-block;
+ vertical-align: middle;
+ color: #ffffff;
+}
+h2.pcgold {
+  color: #82643C;
+}
+.ihlogogold {
+  fill: #82643C;
+}
+.ihlogo{
+  fill: #ffffff;
+  transition: 2s ease-in-out;
+}
+  .reverse-ih {fill:#82643C;}
+
 .navbutton {
   position: absolute; 
   top: 40px;
   right: 50px;
   z-index: 2;
+  cursor: pointer;
 }
 .navbutton div {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  transition-timing-function: ease-in-out;
-  transition: 2s;
+  transition: 0.75s ease-in-out;
 }
-  .nccolor {
-    border: 1px solid #ffffff;
-  }
-  .navc01{transform: translateY(25%)}
-  .navc02{transform: translateY(-25%)}
+  .nccolor {border: 1px solid #ffffff;}
   .reverse {border-color:#82643C;}
-
-
+  .navc01{transform: translateY(8px)}
+  .navc02{transform: translateY(-8px)}
+  .navc01.hnav{transform: translateY(20px)}
+  .navc02.hnav{transform: translateY(-20px)}
+  
 .navcontainer {
   position: fixed;
+  text-align: left;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -490,7 +530,7 @@ nav {
     position: absolute;
     left: 5%;
     top: 60px;
-    width: 20%;
+    width: 289px;
     display: inline-block;
   }
   .navtwo {
@@ -549,6 +589,15 @@ footer {
   height: 350px;
   background-color: #f2efec;
 }
+.footerone h2 {
+  text-align: left;
+  margin: 0;
+}
+.footerone span {
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
 .footerone{
   position: absolute;
   left: 5%;
@@ -587,6 +636,7 @@ footer {
 #impressum a {
     opacity: 0.5;
     font-size: 14px;
+    cursor: pointer;
 }
 
 #impressum {
@@ -601,7 +651,9 @@ footer {
 
 
 
-
+.holder {
+height: 50vh;
+}
 
 
 

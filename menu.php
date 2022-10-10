@@ -25,7 +25,7 @@
     </div>
     <div class="navtwo">
     <div class="circleContainer">
-          <a href="index#method">
+          <a href="index">
             <div class="circle c01">
               <h3 class="t01">Method</h3>
             </div>

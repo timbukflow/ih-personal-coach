@@ -675,7 +675,7 @@ footer {
 .iholder {
   position: absolute;
   opacity: 1;
-  width: 7%;
+  width: 10%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -763,6 +763,9 @@ footer {
 
   /* nutrition */
   .supinfo {left: 0; width: calc(100% - 40px);}
+  /* personal coach */
+  .quots {bottom: 40%; width: 40%;}
+  .quots p {font-size: 18px;}
 }
 
 @media only screen and (max-width: 800px) {
@@ -771,8 +774,12 @@ footer {
   .iholder {width: 15%;}
   #movement, #nutrition, #personal-coach { margin-top: 45vh;}
   .three {width: 100%;}
-
   .circleContainer {width: 300px; height: 300px;}
+
+  /* personal coach */
+  .quots {bottom: 10%; width: 40%;}
+  .quots p, .quots span {font-size: 16px;}
+  
   /* nutrition */
   .resphiden {display: none;}
   .nimg {width: 100%;}
@@ -784,7 +791,7 @@ footer {
 @media only screen and (max-width: 520px) {
   h1.pagetitle {font-size: 36px; letter-spacing: 0.75rem;}
   h2.pagesubtitle {font-size: 26px; letter-spacing: 0.4rem;}
-  p {margin-left:0%; margin-right: 0%;}
+  p {margin-left:0%; margin-right: 0%; font-size: 18px;}
   article {padding-top: 30px;}
   .iholder {width: 30%;}
   /* header */
@@ -794,6 +801,9 @@ footer {
   /* nutrition */
   .nimg {width: 130%;}
   .supinfo p {font-size: 16px;}
+  /* personal coach */
+  .accContainer {margin: 50px 0%;}
+  .quots {display: none;}
 
   /* nav */
   .navresp {height: 90px;}

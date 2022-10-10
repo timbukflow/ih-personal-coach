@@ -401,7 +401,7 @@ article::before {
     display: none;
     overflow: scroll;
     background: #ffffff;
-    padding: 75px 0px;
+    padding: 75px 20px;
     margin: 20px;
     left: 50%;
     top: 0;
@@ -792,7 +792,8 @@ footer {
   .description h1 {font-size: 24px;}
   .three {padding: 0px;}
   /* nutrition */
-  .nimg {width: 150%;}
+  .nimg {width: 130%;}
+  .supinfo p {font-size: 16px;}
 
   /* nav */
   .navresp {height: 90px;}

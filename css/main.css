@@ -791,6 +791,8 @@ footer {
   .description {right: 7%; width: 86%; bottom: 30px;}
   .description h1 {font-size: 24px;}
   .three {padding: 0px;}
+  /* nutrition */
+  .nimg {width: 150%;}
 
   /* nav */
   .navresp {height: 90px;}
@@ -814,7 +816,7 @@ footer {
   footer {height: auto; padding-bottom: 40px;  }
   .footerone, .footertwo, .footerthree {width: 76%;left: 0;top: 0;margin: 30px 7% 0;position: relative;}
   .footernav {position: relative; width: 100%;}
-  #impressum {padding: 0 10% 50px;}
+  #impressum {padding: 0 7% 50px;}
 }
 
 

@@ -150,6 +150,8 @@ header.home {
   width: 100%;
   height: 100vh;
 }
+
+
 .description {
   position: absolute;
   bottom: 10%;
@@ -476,20 +478,21 @@ article::before {
 nav {
   position: fixed;
   z-index: 100;
-  width: 100%;
   top: 0;
-  left: 0;
+  right: 0;
   transition: 2s ease-in-out;
 }
-.headerlogo {
+.logo {
   top: 60px;
   left: 5%;
   position: absolute;
   text-align: left;
+  z-index: 10;
 }
 .svglogo {
   width: 75px;
 }
+
 h2.pc, h2.pcgold {
  text-align: left;
  font-size: 17px;
@@ -807,18 +810,16 @@ footer {
   .quots {display: none;}
 
   /* nav */
-  .navresp {height: 90px;}
-  .reverse-nresp {background-color: #f2efec;}
-  .headerlogo {top: 30px; left: 7%;}
+  .logo {top: 30px; left: 7%;}
   .svglogo{ width: 50px;}
   h2.pc, h2.pcgold { font-size: 16px; margin: 2px 0 0 8px;}
-  .navbutton {top: 27px; right: 7%;}
+  .navbutton {top: 27px; right: 27px;}
   .navc02 {display: none;}
   .navc01 {transform: none!important;}
   .navone {left: 7%; top: 30px;}
   .circleContainer {width: 240px; height: 240px;}
-  .navtwo {top: 45%;}
-  .navthree {bottom: 30px; left: 7%;}
+  .navtwo {top: 40%;}
+  .navthree {bottom: 60px; left: 7%;}
 
   /* footer */
   #footermenu {padding-bottom: 0;}

@@ -9,7 +9,6 @@
 </head>
 
 <body>  
-
   <header class="home">
     <div class="description"> 
       <h1>

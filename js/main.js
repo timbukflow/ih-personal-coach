@@ -51,14 +51,8 @@ $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll >= $('#navchange').offset().top) {
     $('.nccolor').addClass('reverse');
-    $('.ihlogo').addClass('reverse-ih');
-    $('.pc').fadeOut(500);
-    $('.navresp').addClass('reverse-nresp');
   } else {
     $('.nccolor').removeClass('reverse');
-    $('.ihlogo').removeClass('reverse-ih');
-    $('.pc').fadeIn(1000);
-    $('.navresp').removeClass('reverse-nresp');
   }
 });
 

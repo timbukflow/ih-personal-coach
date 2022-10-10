@@ -18,6 +18,10 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -278,8 +282,6 @@ article::before {
   height: 50%;
 }
 
-
-
 /* movement*/
 
 #movement,
@@ -397,6 +399,7 @@ article::before {
   .supinfo {
     position: absolute;
     display: none;
+    overflow: scroll;
     background: #ffffff;
     padding: 75px 0px;
     margin: 20px;
@@ -406,6 +409,12 @@ article::before {
     width: calc(50% - 40px);
     z-index: 10;
     text-align: left;
+    cursor: pointer;
+  }
+  .supinfo img {
+    position: absolute;
+    top: 25px;
+    right: 25px;
   }
   .right {
     left: 0%;
@@ -456,6 +465,9 @@ article::before {
 .accList {
   display: none;
 }
+.accX {
+  transform: rotate(45deg);
+}
 
 /* nav main */
 
@@ -465,6 +477,7 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
+  transition: 2s ease-in-out;
 }
 .headerlogo {
   top: 60px;
@@ -648,20 +661,8 @@ footer {
   padding: 0 5% 50px;
 }
 
+/* loader */
 
-
-
-.holder {
-height: 50vh;
-}
-
-
-
-
-
-
-
-/* Loader */
 .loader {
   position: fixed;
   z-index: 999;
@@ -704,28 +705,12 @@ height: 50vh;
   overflow: hidden;
 }
 
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
+/* ========== helper classes ========== */
 
 .hidden,
 [hidden] {
   display: none !important;
 }
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
 
 .sr-only {
   border: 0;
@@ -737,14 +722,7 @@ height: 50vh;
   position: absolute;
   white-space: nowrap;
   width: 1px;
-  /* 1 */
 }
-
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
@@ -757,25 +735,9 @@ height: 50vh;
   width: auto;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
 .invisible {
   visibility: hidden;
 }
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 
 .clearfix::before,
 .clearfix::after {
@@ -787,15 +749,75 @@ height: 50vh;
   clear: both;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+/* ========== responsive design ========== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 1000px) {
+  .three {width: 49%;}
+  
+  /* footernav */
+  .ccontainer {height: 160px;}
+  .ccontainer div {width: 60px; height: 60px;}
+  
+  /* nav */
+  .circleContainer {width: 400px; height: 400px;}
+
+  /* nutrition */
+  .supinfo {left: 0; width: calc(100% - 40px);}
 }
+
+@media only screen and (max-width: 800px) {
+  h1.pagetitle {font-size: 40px; letter-spacing: 0.75rem;}
+  p {font-size: 20px;}
+  .iholder {width: 15%;}
+  #movement, #nutrition, #personal-coach { margin-top: 45vh;}
+  .three {width: 100%;}
+
+  .circleContainer {width: 300px; height: 300px;}
+  /* nutrition */
+  .resphiden {display: none;}
+  .nimg {width: 100%;}
+  .pos06 {left: 65%;}
+  /* footer */
+  .footertwo {width: 60%;}
+}
+
+@media only screen and (max-width: 520px) {
+  h1.pagetitle {font-size: 36px; letter-spacing: 0.75rem;}
+  h2.pagesubtitle {font-size: 26px; letter-spacing: 0.4rem;}
+  p {margin-left:0%; margin-right: 0%;}
+  article {padding-top: 30px;}
+  .iholder {width: 30%;}
+  /* header */
+  .description {right: 7%; width: 86%; bottom: 30px;}
+  .description h1 {font-size: 24px;}
+  .three {padding: 0px;}
+
+  /* nav */
+  .navresp {height: 90px;}
+  .reverse-nresp {background-color: #f2efec;}
+  .headerlogo {top: 30px; left: 7%;}
+  .svglogo{ width: 50px;}
+  h2.pc, h2.pcgold { font-size: 16px; margin: 2px 0 0 8px;}
+  .navbutton {top: 27px; right: 7%;}
+  .navc02 {display: none;}
+  .navc01 {transform: none!important;}
+  .navone {left: 7%; top: 30px;}
+  .circleContainer {width: 240px; height: 240px;}
+  .navtwo {top: 45%;}
+  .navthree {bottom: 30px; left: 7%;}
+
+  /* footer */
+  #footermenu {padding-bottom: 0;}
+  .fn-three {width: 100%;}
+  .ccontainer {height: 120px;}
+
+  footer {height: auto; padding-bottom: 40px;  }
+  .footerone, .footertwo, .footerthree {width: 76%;left: 0;top: 0;margin: 30px 7% 0;position: relative;}
+  .footernav {position: relative; width: 100%;}
+  #impressum {padding: 0 10% 50px;}
+}
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),

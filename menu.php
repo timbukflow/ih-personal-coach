@@ -1,4 +1,4 @@
-<nav>
+<nav class="navresp">
   <div>
     <a href="index" class="headerlogo">
       <svg class="svglogo" viewBox="0 0 86.5 58.6">

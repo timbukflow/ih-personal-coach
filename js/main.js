@@ -53,10 +53,12 @@ $(window).scroll(function() {
     $('.nccolor').addClass('reverse');
     $('.ihlogo').addClass('reverse-ih');
     $('.pc').fadeOut(500);
+    $('.navresp').addClass('reverse-nresp');
   } else {
     $('.nccolor').removeClass('reverse');
     $('.ihlogo').removeClass('reverse-ih');
     $('.pc').fadeIn(1000);
+    $('.navresp').removeClass('reverse-nresp');
   }
 });
 
@@ -92,10 +94,13 @@ $('.morebutton').click(function() {
 });
 
 // hover
-$('.supplus').hover(function() {
+$('.supplus').click(function() {
   var suppmore = $(this).attr("data-toggle");
-  $(suppmore).stop(true, false).fadeToggle('slow');
-  $(this).children('img').toggleClass('accX');
+  $('.supinfo').fadeOut(1000)
+  $(suppmore).stop(true, false).fadeIn(1000);
+});
+$('.supinfo').click(function() {
+  $('.supinfo').fadeOut(1000)
 });
 
 // impressum

@@ -111,6 +111,11 @@
           <h2>vision <br> training</h2>
         </div>
       </article>
+      <!--moreicon
+      <div class="hiddencontent" id="morenutrition">
+          
+      </div>
+      <div class="morebutton" data-toggle="#morenutrition"><img src="./img/cross-big.svg" alt="cross" width="21" height="21"></div>-->
     </section>
     <?php include 'footermenu.php'; ?><style> #fm-movement { display: none; } </style>
   </main>
@@ -120,7 +125,7 @@
       <div class="slideimg01"></div>
       <div class="slideimg02"></div>
   </div>
-  
+
   <?php include 'loading.php'; ?>
   <?php include 'menu.php'; ?>
   <?php include 'footer.php'; ?>

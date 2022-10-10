@@ -183,6 +183,7 @@ header.home {
   background: url('../img/ih-personal-coach-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .slideimg02 {
   width: 100%;
@@ -192,6 +193,7 @@ header.home {
   background: url('../img/ih-personal-coach-03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   animation: slidefade ease-in-out 21s infinite;
   animation-delay: 5s;
   opacity: 0;

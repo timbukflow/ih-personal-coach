@@ -66,7 +66,8 @@
     </section>
     <?php include 'footermenu.php'; ?><style> #fm-method { display: none; } </style>
   </main>
-
+  
+  <?php include 'loading.php'; ?>
   <?php include 'menu.php'; ?>
   <?php include 'footer.php'; ?>
   <?php include 'script.php'; ?>

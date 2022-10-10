@@ -1,31 +1,46 @@
 //loading//
-/*
+
 let i01 = document.querySelector('.i01');
+let h01 = document.querySelector('.h01');
 let h02 = document.querySelector('.h02');
 let h03 = document.querySelector('.h03');
+let body = document.querySelector('body');
 let loader = document.querySelector('.loader');
 
 window.addEventListener('DOMContentLoaded', ()=>{
   
     setTimeout(() => {
+      
+      setTimeout(()=>{
+        body.classList.add('bnscroll')
+        i01.classList.add('logofade');
+        h01.classList.add('logofade');
+        h02.classList.add('logofade');
+      },0)
 
-        setTimeout(()=>{
-            i01.classList.add('logofade', 'disti01');
-            h02.classList.add('logofade', 'disti02');
-            h03.classList.add('logofade', 'form01');
-        },1000)
+      setTimeout(()=>{
+        h03.classList.add('logofade');
+      },200)
 
-        setTimeout(()=>{
-            loader.classList.add('logofade', 'fade');
-        }, 2500)
+      setTimeout(()=>{
+          i01.classList.add('disti01' );
+          h02.classList.add('disti02' );
+          h03.classList.add('form01' );
+      },1000)
+
+      setTimeout(()=>{
+          $(loader).fadeOut(1000);
+          body.classList.remove('bnscroll')
+      }, 2500)
 
     }) 
-});*/
+});
 
 // nav  //
 $('.navbutton').click(function(){
   $('.navcontainer').stop().fadeToggle(1000);
   $('.nccolor').addClass('reverse');
+  body.classList.toggle('bnscroll')
 });
 $('.navbutton').hover(function(){
   $('.nccolor').toggleClass('hnav');

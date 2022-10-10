@@ -132,7 +132,8 @@
       <div class="slideimg01"></div>
       <div class="slideimg02"></div>
   </div>
-
+  
+  <?php include 'loading.php'; ?>
   <?php include 'menu.php'; ?>
   <?php include 'footer.php'; ?>
   <?php include 'script.php'; ?>

@@ -171,7 +171,7 @@ header.home {
   width: 100%;
   height: 100vh;
   background-color: #82643C;
-  opacity: 0.3;
+  opacity: 0.1;
   position: absolute;
   z-index: 10;
 }
@@ -189,11 +189,11 @@ header.home {
   height: 100vh;
   position: absolute;
   z-index: 9;
-  background: url('../img/ih-personal-coach-02.jpg');
+  background: url('../img/ih-personal-coach-03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   animation: slidefade ease-in-out 21s infinite;
-  animation-delay: 3s;
+  animation-delay: 5s;
   opacity: 0;
 }
 
@@ -288,7 +288,7 @@ article::before {
 #nutrition,
 #personal-coach {
   background-color: #f2efec4d;
-  margin-top: 25vh;
+  margin-top: 40vh;
 }
 .three {
   position: relative;
@@ -753,7 +753,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .three {width: 49%;}
-  
+
   /* footernav */
   .ccontainer {height: 160px;}
   .ccontainer div {width: 60px; height: 60px;}
@@ -772,7 +772,6 @@ footer {
   h1.pagetitle {font-size: 40px; letter-spacing: 0.75rem;}
   p {font-size: 20px;}
   .iholder {width: 15%;}
-  #movement, #nutrition, #personal-coach { margin-top: 45vh;}
   .three {width: 100%;}
   .circleContainer {width: 300px; height: 300px;}
 

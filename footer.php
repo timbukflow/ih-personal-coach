@@ -8,7 +8,7 @@
     <ul class="footernav">
 			<li><a href="tel:+41765413223">Phone</a></li>
 			<li><a href="mailto:miz.i@mail.ru" target="_top">Mail</a></li>
-			<li><a href="https://www.instagram.com/">Instagramm</a></li>
+			<li><a href="https://www.instagram.com/">Instagram</a></li>
 		</ul>
     <ul class="footernav fnright">
 			<li><a href="index#method">Method</a></li>

@@ -12,14 +12,14 @@
   <main id="navchange">
     <section id="movement"> 
       <article>
-        <header>
+        <header data-aos="fade-up" data-aos-duration="2000">
         <h1 class="pagetitle">Movement</h1>
           <p>
           there are about 700 muscles in the human body , each of which, being inextricably linked with the rest , is responsible for a certain movement and determines the direction . So the primary task in my work is to teach the client to "listen" to the body and control individual muscles independently. Then , the study of the technique of basic exercises and basic movements , which ensures the safe use of joints , determines the economy of movement and the effective work of the selected muscle or muscle group . Then we proceed to the development of multi - articular , functional , complex coordination or even gymnastic and acrobatic exercises that allow to feel your body better in space and control it perfectly .
           </p>
         </header>
 
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -29,7 +29,7 @@
           <h2>postural <br> gymnastic</h2>
         </div>
 
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
             <svg class="msicon" viewBox="0 0 161 281">
               <circle  cx="80.5" cy="200.5" r="80"/>
               <circle  cx="80.5" cy="80.5" r="80"/>
@@ -39,7 +39,7 @@
             <h2>weight <br> correction</h2>
         </div>
 
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -48,7 +48,7 @@
           <h2>spine <br> correction</h2>
         </div>
 
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -57,7 +57,7 @@
           </svg>
           <h2>flexibility <br> stretching</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -65,7 +65,7 @@
           </svg>
           <h2>functional <br> training</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
             <svg class="msicon" viewBox="0 0 161 281">
               <circle  cx="80.5" cy="200.5" r="80"/>
               <circle  cx="80.5" cy="80.5" r="80"/>
@@ -74,7 +74,7 @@
             </svg>
             <h2>weight <br> training</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -83,7 +83,7 @@
           </svg>
           <h2>buttock <br> training</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -93,7 +93,7 @@
           </svg>
           <h2>sportsspecific <br> training</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -102,7 +102,7 @@
           </svg>
           <h2>rehabilitation <br> training</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="msicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>

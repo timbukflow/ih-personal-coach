@@ -12,7 +12,7 @@
   <main id="navchange">
     <section id="nutrition"> 
       <article>
-        <header>
+        <header data-aos="fade-up" data-aos-duration="2000">
           <h1 class="pagetitle">Nutrition</h1>
           <p>
             Nutrition plays a great role in our daily life. The food or liquids affect our body and health because each food or liquid contain particular nutrition which is very necessary for our physical and mental growth. A particular level of any particular nutrition is essential for our body. So we should know that what food we have to take, how much and what type of nutrition contain a particular food.
@@ -20,7 +20,7 @@
         </header>
       </article>
 
-      <div id="supplements">
+      <div id="supplements" data-aos="fade-up" data-aos-duration="2000">
         <div class="supinfo" id="supinfo01">
           <h2>Protein</h2>
           <p>
@@ -82,12 +82,12 @@
         <img class="nimg" src="./img/ih-personal-coach-nutrition-02.jpg" alt="ih-personal-coach-nutrition">
         <img class="nimg resphiden" src="./img/ih-personal-coach-nutrition-lachs-01.jpg" alt="ih-personal-coach-nutrition-lachs">
       </div>
-      <article>
+      <article data-aos="fade-up" data-aos-duration="2000">
         <h2 class="pagesubtitle">Your personal meal plan</h2>
         <p>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo ea rebum.
         </p>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="nicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -95,7 +95,7 @@
           </svg>
           <h2>Selection of dietary supplements based on blood result.</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="nicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -105,7 +105,7 @@
           </svg>
           <h2>Correction of nutrition depending on the type of daily activity.</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="nicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>
             <circle  cx="80.5" cy="80.5" r="80"/>
@@ -114,7 +114,7 @@
           </svg>
           <h2>Nutrition plan for weight correction.</h2>
         </div>
-        <div class="three">
+        <div data-aos="fade-up" data-aos-duration="2000" class="three">
             <svg class="nicon" viewBox="0 0 161 281">
               <circle  cx="80.5" cy="200.5" r="80"/>
               <circle  cx="80.5" cy="80.5" r="80"/>

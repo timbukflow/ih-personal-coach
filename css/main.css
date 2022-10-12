@@ -310,8 +310,8 @@ article::before {
 .nicon line {
   fill:none; 
   stroke: #82643C; 
-  stroke-width:2px; 
-  stroke-miterlimit:10;
+  stroke-width: 1px; 
+  stroke-miterlimit: 10;
 }
 .nicon circle,
 .msicon circle {
@@ -320,9 +320,9 @@ article::before {
 }
 
 @keyframes icond {
-  0%    {opacity: 0.5;}
-  50%   {opacity: 0.1;} 
-  100%  {opacity: 0.5;}
+  0%    {opacity: 1;}
+  50%   {opacity: 0.25;} 
+  100%  {opacity: 1;}
 }
 
 .msicon {
@@ -334,7 +334,7 @@ article::before {
 .msicon polyline {
   fill:none; 
   stroke:#82643C; 
-  stroke-width:2px; 
+  stroke-width:1px; 
   stroke-miterlimit:10;
 }
 

@@ -11,7 +11,7 @@
 <body>
   <main id="navchange">
     <section id="personal-coach"> 
-      <article>
+      <article data-aos="fade-up" data-aos-duration="2000">
         <header>
           <h1 class="pagetitle">Personal<br>Coach</h1>
           <p>
@@ -19,7 +19,7 @@
           </p>
         </header>
       </article>
-      <div class="pcimgc">
+      <div data-aos="fade-up" data-aos-duration="2000" class="pcimgc">
         <img src="./img/ih-personal-coach-ilya-holzscheiter.jpg" alt="ih-personal-coach-ilya-holzscheiter-portrait">
         <div class="quots">
           <p>
@@ -27,13 +27,13 @@
           </p>
         </div>
       </div>
-      <article>
+      <article data-aos="fade-up" data-aos-duration="2000">
         <h2 class="pagesubtitle">Location</h2>
         <p>
           Das Training findet individuell und nach ihren Bedürfnissen statt. In der morgendämmerung Laufen im Park, das sonntägliche mobilitätstraining in Ihrem Wohnzimmer, schmerzlindernde Rückenübungen im Fitnessstudio. Der Ort und Zeitraum wird ganz auf Ihren Lebensrytmus angepasst um das Training harmonisch in Ihren Tag einfliessen zu lassen. Das Online-Training ist auf dem gleichen Fundament aufgebaut wie das Personal Training mit dem unterschied das es ortsunabhängig von Ihrem Coach stattfinden kann, ob sie sich gerade auf ihrer Yacht im Mittelmeer befinden, auf Geschäftsreise in New York oder Ihr Wohnort in Dubai ist, die Begleitung ihrer Transformation findet keinen unterbruch oder Qualitätsminderung.
         </p>
       </article>
-      <article>
+      <article data-aos="fade-up" data-aos-duration="2000">
         <h2 class="pagesubtitle">Targedgroup</h2>
         <p>
           Das Training findet individuell und nach ihren Bedürfnissen statt. In der morgendämmerung Laufen im Park, das sonntägliche mobilitätstraining in Ihrem Wohnzimmer, schmerzlindernde Rückenübungen im Fitnessstudio. Der Ort und Zeitraum wird ganz auf Ihren Lebensrytmus angepasst um das Training harmonisch in Ihren Tag einfliessen zu lassen. Das Online-Training ist auf dem gleichen Fundament aufgebaut wie das Personal Training mit dem unterschied das es ortsunabhängig von Ihrem Coach stattfinden kann, ob sie sich gerade auf ihrer Yacht im Mittelmeer befinden, auf Geschäftsreise in New York oder Ihr Wohnort in Dubai ist, die Begleitung ihrer Transformation findet keinen unterbruch oder Qualitätsminderung.

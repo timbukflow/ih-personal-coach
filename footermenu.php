@@ -1,5 +1,5 @@
 <section id="footermenu">
-  <article>
+  <article data-aos="fade-up" data-aos-duration="2000" >
     <div id="fm-method" class="fn-three" data-toggle="#nc01">
       <a href="index#method">
         <div class="ccontainer">

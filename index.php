@@ -25,7 +25,7 @@
 
   <main id="navchange">
     <section id="method">
-      <article>
+      <article data-aos="fade-up" data-aos-duration="2000">
         <h1 class="pagetitle">Method</h1>
         <p>
           Unsere Methodik basiert auf grundlegendem Wissen kombiniert mit fortschrittlicher wissenschaftlicher Forschung. Die Vorgehensweise nach dem Modell maximale Ergebnisse, minimaler Zeitaufwand und meiner 20 jährigen Erfahrung, führt ihren Körper zum Erfolg.
@@ -55,7 +55,7 @@
         </div>
 
       </article>
-      <article>
+      <article data-aos="fade-up" data-aos-duration="2000">
         <h2 class="pagesubtitle">Analysis &amp; Correction</h2>
         <p>
           to build an effective training plan for a work with each client, I need to know his physical condition at the moment, for this I use various  methods of analysis, including measurement of body parameters, joint mobility, blood composition, assessment of the state of the musculoskeletal system, analysis of previous experience, etc. Such a comprehensive and detailed analysis allows me to more accurately determine the goals and optimal ways to achieve them.

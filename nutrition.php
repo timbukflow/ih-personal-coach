@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Nutrition</title>
-  <meta name="description" content=".........">
+  <meta name="description" content="Nutrition plays a great role in our daily life. Each food and liquid contains specific nutrition which affects our physical and mental growth. A particular level of any nutrition is essential for our body. So, we should know exactly how much and what type of nutrition we need for the desired effects on our body and mind.">
   <?php include 'head.php'; ?>
 </head>
 
@@ -15,7 +15,7 @@
         <header data-aos="fade-up" data-aos-duration="2000">
           <h1 class="pagetitle">Nutrition</h1>
           <p>
-            Nutrition plays a great role in our daily life. The food or liquids affect our body and health because each food or liquid contain particular nutrition which is very necessary for our physical and mental growth. A particular level of any particular nutrition is essential for our body. So we should know that what food we have to take, how much and what type of nutrition contain a particular food.
+          Nutrition plays a great role in our daily life. Each food and liquid contains specific nutrition which affects our physical and mental growth. A particular level of any nutrition is essential for our body. So, we should know exactly how much and what type of nutrition we need for the desired effects on our body and mind.
           </p>
         </header>
       </article>
@@ -24,52 +24,44 @@
         <div class="supinfo" id="supinfo01">
           <h2>Protein</h2>
           <p>
-            Protein helps our body to build muscles and strong immune system. Basically proteins are made up of long chains of amino acids. There are 22 different types of amino acid and our body needs all these amino acid to function properly. Protein is abundant type of nutrient in our body that builds new tissues and repairs all damaged cells in our body. It also helps in formation of hormones and enzymes which play variety of roles in our body such as metabolism and sexual development. There are many types of protein that play different types of important role in our body. For example collagen is a protein and it gives the strength, elasticity and composition of our hair and skin. Some of the good protein sources are lentils, low-fat dairy products, tofu, nuts, seeds, peas, tempeh. Some common foods such as whole grain bread, potatoes, corn and pasta also have protein. Soya protein is the most essential and strong protein and it is equal to any animal origin protein.
+          Protein helps our body to build muscles and strengthen our immune system. They consist of long chains of 22 different amino acids. Our body needs all of them to function properly. Proteins build new tissue and repair damaged cells in our body. They also help forming hormones and enzymes which play variety of roles such as metabolism and sexual development. <br> <br> 
+          There are many different types of protein that play important roles in our body. Collagen for example gives strength elasticity and composition to our hair and skin. Examples of healthy protein sources are lentils, low-fat dairy products, tofu, nuts, seeds, peas or tempeh. Some common foods such as whole grain bread, potatoes, corn or pasta also contain protein. Soya protein is the most essential and strong protein – equal to any protein of animal origin.
+
           </p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
         <div class="supinfo" id="supinfo02">
           <h2>Carbohydrates</h2>
           <p>
-            Carbohydrates give us energy. This is an ideal source of energy for the body because carbohydrates converted more readily into glucose. It helps our body to supply the energy for the formation of cellular constituent. Carbohydrates are made up of three compounds Carbon, Hydrogen and Oxygen formed by plants. There are four types of carbohydrates are important - Sugar, Starches, Fiber and Gum. If carbohydrates taken regularly it doesn't cause any weight gain, unless like other food group. There are two types of carbohydrates - Complex and Simple. Efficiency of carbohydrates can cause the production of ketones in the body, it can results into a condition known as ketosis. The good examples of carbohydrates are breads, potatoes, pasta, soda, chips, candies/sweets, cookies/biscuits, puddings, cakes, sugar, bananas etc.
+          Carbohydrates give us power. Good examples of carbohydrates are bread, potatoes, pasta, soda, chips, candies/sweets, cookies/biscuits, pudding, cake, sugar or bananas. They are an ideal source of energy because carbohydrates convert readily into glucose, which helps our body to supply the energy to form cellular constituents. Carbohydrates are made up of three compounds Carbon, Hydrogen and Oxygen formed by plants. Four types of carbohydrates are important: Sugar, Starch, Fiber and Gum – both in complex and simple forms. Unlike other food groups, they don’t cause weight gain if taken regularly and in the right amounts. A lack of carbohydrates can cause the production of ketones in the body resulting in a condition known as ketosis.
           </p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
         <div class="supinfo" id="supinfo03">
           <h2>Fat</h2>
           <p>
-            Fat provides us extra energy. It is a nutrient and a particular amount of fat is necessary for our body. It doesn't always make us fat. It play role to insulate our bodies by giving us protection from sudden changes in temperature and also protects our vital organs. Fats consists of a wide group of compounds are soluble in organic solvents and insoluble in water. Fats provide 9 calories per gram. When dietary fat is digested, fatty acids are produced. It is also important for healthy skin and blood pressure regulation.
-            <br><br>
-            There are two types of fats Saturated (solid at room temperature) and Unsaturated (liquid at room temperature). To obtain an adequate amount of linoleic acid, one of the few fatty acids the body cannot produce on itself. Any adult needs one tablespoon of unsaturated fat daily. Saturated fats mainly occur in dairy products like butter, cream, cheese and some chocolates. The source of unsaturated fats are soybean, sunflower and corn oils.
+          Fat provides us with extra energy. As a nutrient, a certain amount of fat is vital for our body. It doesn't necessarily make us fat. Fat insulates our bodies, protecting our vital organs from sudden changes in temperature. It is also important for a healthy skin and regulates blood pressure. Fats consists of a wide group of compounds, soluble in organic matter and insoluble in water. They provide nine calories per gram. When dietary fat is digested, different types of fatty acids are produced – each of them design to a specific purpose.  
           </p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
         <div class="supinfo right" id="supinfo04">
           <h2>Vitamins</h2>
           <p>
-            A vitamin is an organic compound, it regulate our body processes and plays an important role to make our body function properly. The term vitamin was derived from 'vitamine', a combination word from Vital and Amine. Today a chemical compound is called a vitamin. Our body needs vitamins as substances to grow and develop normally. There are 13 vitamins necessary for our body. Some of them are A, B, C, D, E, K, vitamin B-6 and vitamin B-12. In our daily life we get all most all these vitamins form foods whatever we take. Our body can also produce vitamins D and K.
-            <br><br>
-            Each vitamin plays specific jobs. Any particular low levels of vitamins cause deficiency disease. For example, if we don't get enough vitamin D it can cause rickets. Deficiency of vitamin 'A' can cause Night Blindness.
-            <br><br>
-            If we eat a balanced diet we get enough essential vitamin automatically form our daily food or liquid. We don't even need to take any particular vitamin separately. Only in some cases we need to take a daily multivitamin for optimal health.
+          Vitamins are organic compounds, which regulate our bodies processes and play an important role in making it function properly. The term was derived from 'vitamine', a combination word from Vital and Amine. Our body needs vitamins to grow and develop normally. There are 13 vitamins necessary for our body. Some of the most important are A, B, C, D, E, K, B-6 and B-12. In our daily life we get most these vitamins through food – our can only produce the vitamins D and K.
           </p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
         <div class="supinfo right" id="supinfo05">
           <h2>Minerals</h2>
           <p>
-            Minerals regulate our body processes and also make body tissues. Minerals make our body work properly same as vitamin play the role but it doesn't prevent weight loss. Although we get it form our daily foods, so we don't need to take it separately. Minerals boost our immune system. Some important minerals are Chloride, Calcium, Copper, Chromium, Fluoride, Iron and Iodine. These types of minerals can be found from our daily food or liquid supplement like salt, soy sauce, milk, vegetable oils, whole grains, cheese, nuts etc
-            <br><br>
-            Water gives cells shape and acts as a medium where body processes can occur. It is the well known yet most important nutrient our body needs. It is also the most abundant type of liquid found in our body contributing 70% of our total mass. It helps to dissolve and carry the essential nutrients to all parts of the body. It is also needed to help maintain the body temperature and aids to carry away the body's waste products.
+          Minerals regulate our body processes, help forming body tissues and boost our immune system – similar to vitamins. Some important minerals are Chloride, Calcium, Copper, Chromium, Fluoride, Iron and Iodine. These types of minerals can be found from our daily food or liquid supplement like salt, soy sauce, milk, vegetable oils, whole grains, cheese or nuts.
           </p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
         <div class="supinfo right" id="supinfo06">
           <h2>Water</h2>
           <p>
-            In human body there are 70% of total mass is covered by water. Water gives cells shape and acts as a medium where body processes can occur. It is very necessary nutrient than available all nutrients. It is also the most abundant type of liquid found in human body. Water help maintain the body temperature and aids to carry away the body's waste products.
-            <br><br>
-            We see that nutrition plays a very important role in our lives, each food and liquid contains its own nutrition value which is very necessary in our life. It could help to extend or decrease our life span as well as define our degree or livelihood. It helps in our mental and physical development as well. We must should aware about the food and liquid what we take regularly. Popper food in our daily life leads to a lifetime habit toward a healthy extended life.
+            Water shapes our cells and acts as a medium where body processes can occur. It is the most important nutrient our body needs, making uo 70 percent of our total mass. Water helps to dissolve and carry the essential nutrients to all parts of the body. It is also needed to help maintain the body temperature and helps to carry away the body's waste products.
           </p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
@@ -84,9 +76,6 @@
       </div>
       <article data-aos="fade-up" data-aos-duration="2000">
         <h2 class="pagesubtitle">Your personal meal plan</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo ea rebum.
-        </p>
         <div data-aos="fade-up" data-aos-duration="2000" class="three">
           <svg class="nicon" viewBox="0 0 161 281">
             <circle  cx="80.5" cy="200.5" r="80"/>

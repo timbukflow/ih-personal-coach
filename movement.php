@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Movement</title>
-  <meta name="description" content=".........">
+  <meta name="description" content="There are over 650 muscles in the human body. Being inextricably linked to each other, each muscle is responsible for a certain movement and direction. The primary task in my work is to teach you to listen to your body and control individual muscles independently.">
   <?php include 'head.php'; ?>
 </head>
 
@@ -15,7 +15,7 @@
         <header data-aos="fade-up" data-aos-duration="2000">
         <h1 class="pagetitle">Movement</h1>
           <p>
-          there are about 700 muscles in the human body , each of which, being inextricably linked with the rest , is responsible for a certain movement and determines the direction . So the primary task in my work is to teach the client to "listen" to the body and control individual muscles independently. Then , the study of the technique of basic exercises and basic movements , which ensures the safe use of joints , determines the economy of movement and the effective work of the selected muscle or muscle group . Then we proceed to the development of multi - articular , functional , complex coordination or even gymnastic and acrobatic exercises that allow to feel your body better in space and control it perfectly .
+            There are over 650 muscles in the human body. Being inextricably linked to each other, each muscle is responsible for a certain movement and direction. The primary task in my work is to teach you to listen to your body and control individual muscles independently. First, I will help you study the techniques of basic exercises and movements to ensure a safe strain on joints and muscles. You will determine the economy of movement and effective workout for each selected muscle or muscle group. We will then proceed to developing multi-articular, functional and complex coordination. Gymnastic and acrobatic exercises will allow you to better perceive your body in space and to control it perfectly.
           </p>
         </header>
 

@@ -71,7 +71,6 @@ h1, h2, h3, p, a {
   color: #82643C;
   text-align: center;
   text-decoration: none;
-  word-break: break-all;
 }
 
 
@@ -81,6 +80,7 @@ h1.pagetitle {
   text-transform: uppercase;
   margin: 50px 0px 0px;
   line-height: 1.1;
+  word-break: break-all;
 }
 
 .description h1 {

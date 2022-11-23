@@ -1,1 +1,1 @@
-# ih-personal-coach
+# im-personal-coach

@@ -86,7 +86,7 @@ h1.pagetitle {
   text-transform: none;
   text-align: left;
   letter-spacing: 0.1rem;
-  font-size: 30px;
+  font-size: 22px;
   color: #f2efec;
 }
 
@@ -99,7 +99,9 @@ h2, h3 {
 h3 {
   margin: 0;
 }
-
+#footermenu h2 {
+  font-size: 20px;
+}
 h2.pagesubtitle {
   font-size: 36px;
   letter-spacing: 0.6rem;
@@ -131,7 +133,7 @@ p.negativfont {
 }
 
 a {
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: .2rem;
   text-transform: uppercase;
 }
@@ -182,7 +184,7 @@ header.home {
   height: 100vh;
   position: absolute;
   z-index: 8;
-  background: url('../img/ih-personal-coach-01.jpg');
+  background: url('../img/im-personal-coach-01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -192,10 +194,10 @@ header.home {
   height: 100vh;
   position: absolute;
   z-index: 9;
-  background: url('../img/ih-personal-coach-03.jpg');
+  background: url('../img/im-personal-coach-02.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: left;
   animation: slidefade ease-in-out 21s infinite;
   animation-delay: 5s;
   opacity: 0;
@@ -273,7 +275,8 @@ article::before {
 .c03{transform: translate(-80%, -50%) rotate(-90deg);}
 .c04{transform: translate(-20%, -50%) rotate(90deg);}
 
-.t01, .t03 {transform: translate(0, -200%);}
+.t01 {transform: translate(0, -140%); margin: 0 15px;}
+.t03 {transform: translate(0, -200%);}
 .t02, .t04 {transform: translate(0, -200%) rotate(180deg);}
 
 .cpassiv {
@@ -490,13 +493,13 @@ nav {
   z-index: 10;
 }
 .svglogo {
-  width: 75px;
+  width: 80px;
 }
 
 h2.pc, h2.pcgold {
  text-align: left;
  font-size: 17px;
- margin: 0 0 0 10px;
+ margin: 5px 0 0 10px;
  display: inline-block;
  vertical-align: middle;
  color: #ffffff;
@@ -526,8 +529,15 @@ h2.pcgold {
   border-radius: 50%;
   transition: 0.75s ease-in-out;
 }
+.langbutton {
+  position: absolute;
+  right: 55px;
+  top: 130px;
+}
   .nccolor {border: 1px solid #ffffff;}
+  .langcolor {color: #ffffff; font-size: 16px; cursor: pointer;}
   .reverse {border-color:#82643C;}
+  .reverse-font {display: none;}
   .navc01{transform: translateY(8px)}
   .navc02{transform: translateY(-8px)}
   .navc01.hnav{transform: translateY(20px)}
@@ -561,6 +571,10 @@ h2.pcgold {
     position: absolute;
     bottom: 50px;
     left: 5%;
+  }
+
+  .navmenumobile {
+    display: none;
   }
 
 /* navfooter */
@@ -610,17 +624,25 @@ footer {
 .footerone h2 {
   text-align: left;
   margin: 0;
+  font-size: 26px;
 }
+.footerone span.ilya {
+  opacity: 0.5;
+  display: inline;
+  font-size: 22px;
+}
+
 .footerone span {
   opacity: 0.5;
   margin-top: 5px;
+  font-size: 16px;
 }
 
 .footerone{
   position: absolute;
   left: 5%;
   top: 60px;
-  width: 20%;
+  width: 90%;
   display: inline-block;
 }
 .footertwo {
@@ -642,7 +664,7 @@ footer {
     padding-top: 10px;
   }
   .fnright a {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 .footerthree {
   position: absolute;
@@ -653,7 +675,7 @@ footer {
 .impressum,
 #impressum a {
     opacity: 0.5;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -686,22 +708,14 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.i01, .h01, .h02, .h03 {
+.i01, .m01 {
   opacity: 0;
 }
 .logofade {
   opacity: 1;
   transition: 1s ease-in-out;
 }
-.disti01 {
-  transform: translateX(-20px);
-}
-.disti02 {
-  transform: translateX(24px);
-}
-.form01 {
-  width: 24px;
-}
+
 .fade {
   opacity: 0;
 }
@@ -792,15 +806,15 @@ footer {
   .footertwo {width: 60%;}
 }
 
-@media only screen and (max-width: 520px) {
-  h1.pagetitle {font-size: 36px; letter-spacing: 0.75rem;}
+@media only screen and (max-width: 700px) {
+  h1.pagetitle {font-size: 32px; letter-spacing: 0.75rem;}
   h2.pagesubtitle {font-size: 26px; letter-spacing: 0.4rem;}
   p {margin-left:0%; margin-right: 0%; font-size: 18px;}
   article {padding-top: 30px;}
   .iholder {width: 30%;}
   /* header */
   .description {right: 7%; width: 86%; bottom: 30px;}
-  .description h1 {font-size: 24px;}
+  .description h1 {font-size: 22px;}
   .three {padding: 0px;}
   /* nutrition */
   .nimg {width: 130%;}
@@ -814,24 +828,39 @@ footer {
   .svglogo{ width: 50px;}
   h2.pc, h2.pcgold { font-size: 16px; margin: 2px 0 0 8px;}
   .navbutton {top: 27px; right: 27px;}
+  .langbutton {position: absolute; right: 32px; top: 100px;}
   .navc02 {display: none;}
   .navc01 {transform: none!important;}
-  .navone {left: 7%; top: 30px;}
-  .circleContainer {width: 240px; height: 240px;}
-  .navtwo {top: 40%;}
-  .navthree {bottom: 60px; left: 7%;}
+  .navone {left: 7%; top: 34px;}
+  .navtwo {display: none;}
+  .navmenumobile {display: block;}
+  .navthree {bottom: 60px; left: 7%; width: 86%;}
+  .t01 {margin: 0;}
+  h3 {font-size: 14px;}
 
   /* footer */
   #footermenu {padding-bottom: 0;}
+  #footermenu h2 {font-size: 19px;}
   .fn-three {width: 100%;}
   .ccontainer {height: 120px;}
 
   footer {height: auto; padding-bottom: 40px;  }
-  .footerone, .footertwo, .footerthree {width: 76%;left: 0;top: 0;margin: 30px 7% 0;position: relative;}
+  .footerone, .footertwo, .footerthree {width: 86%;left: 0;top: 0;margin: 30px 7% 0;position: relative;}
   .footernav {position: relative; width: 100%;}
+  .nmfix {width: 50%; float: left;}
   #impressum {padding: 0 7% 50px;}
 }
+@media only screen and (max-width: 480px) {
+  /* nav */
+  .nmfix {width: 100%; float: left;}
+}
 
+@media only screen and (max-width: 350px) {
+  /* nav */
+  .logo {top: 34px; left: 7%;}
+  .svglogo{ width: 40px;}
+  h2.pc, h2.pcgold { font-size: 14px; margin: 2px 0 0 2px;}
+}
 
 
 @media print,

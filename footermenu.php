@@ -8,7 +8,7 @@
           <div class="nc03 ncactiv" id="nc01"></div>
           <div class="nc04"></div>
         </div>
-        <h2>Method</h2>
+        <h2><?php echo $lang['footermenu-method'] ?></h2>
       </a>
     </div>
     <div id="fm-movement" class="fn-three" data-toggle="#nc02">
@@ -19,7 +19,7 @@
           <div class="nc03"></div>
           <div class="nc04 ncactiv" id="nc02"></div>
         </div>
-        <h2>Movement</h2>
+        <h2><?php echo $lang['footermenu-movement'] ?></h2>
       </a>
     </div>
     <div id="fm-personal-coach" class="fn-three" data-toggle="#nc03">
@@ -30,7 +30,7 @@
           <div class="nc03"></div>
           <div class="nc04"></div>
         </div>
-        <h2>Personal Coach</h2>
+        <h2><?php echo $lang['footermenu-personal-coach'] ?></h2>
       </a>
     </div>
     <div id="fm-nutrition" class="fn-three" data-toggle="#nc04">
@@ -41,7 +41,7 @@
           <div class="nc03"></div>
           <div class="nc04"></div>
         </div>
-        <h2>Nutrition</h2>
+        <h2><?php echo $lang['footermenu-nutrition'] ?></h2>
       </a>
     </div>
   </article>

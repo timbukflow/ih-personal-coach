@@ -1,25 +1,25 @@
 <footer id="footer">
 
   <div class="footerone">
-    <h2>Ilya Holzscheiter <span>Personal Coach</span> </h2>
+    <h2>I<span class="ilya">lya</span> M<span class="ilya">izgirev</span> <span><?php echo $lang['footer-personal-coach'] ?></span> </h2>
   </div>
 
   <div class="footertwo">
     <ul class="footernav">
-			<li><a href="tel:+41765413223">Phone</a></li>
-			<li><a href="mailto:miz.i@mail.ru" target="_top">Mail</a></li>
-			<li><a href="https://www.instagram.com/">Instagram</a></li>
+			<li><a href="tel:+7926427-76-46"><?php echo $lang['footer-phone'] ?></a></li>
+			<li><a href="mailto:contact@impersonalcoach.com" target="_top"><?php echo $lang['footer-mail'] ?></a></li>
+			<li><a href="https://www.instagram.com/impersonalcoach/"><?php echo $lang['footer-instagram'] ?></a></li>
 		</ul>
     <ul class="footernav fnright">
-			<li><a href="index#method">Method</a></li>
-			<li><a href="movement">Movement</a></li>
-			<li><a href="personal-coach">Personal Coach</a></li>
-      <li><a href="nutrition">Nutrition</a></li>
+			<li><a href="index#method"><?php echo $lang['footer-method'] ?></a></li>
+			<li><a href="movement"><?php echo $lang['footer-movement'] ?></a></li>
+			<li><a href="personal-coach"><?php echo $lang['footer-pc'] ?></a></li>
+      <li><a href="nutrition"><?php echo $lang['footer-nutrition'] ?></a></li>
 		</ul>
   </div>
 
   <div class="footerthree">
-    <a class="impressum" data-toggle="#impressum">Impressum</a>
+    <a class="impressum" data-toggle="#impressum"><?php echo $lang['footer-impresumm'] ?></a>
   </div>
 
 </footer>
@@ -28,6 +28,6 @@
     <li><a href="https://www.schwizerschlatter.com" target="_blank">Schwizer Design GmbH</a></li>
 		<li><a href="https://goo.gl/maps/ZL9cF1SMuHzRdcr69">Davidstrasse 45, 9000 St.Gallen</a></li>
 		<li><a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a></li>
-    <li><a href="index">Copyright 2022 IH Personal Coach. All rights reserved</a></li>
+    <li><a href="index">Copyright 2023 IM Personal Coach. All rights reserved</a></li>
 	</ul>
 </div>

@@ -1,9 +1,7 @@
 //loading//
 
 let i01 = document.querySelector('.i01');
-let h01 = document.querySelector('.h01');
-let h02 = document.querySelector('.h02');
-let h03 = document.querySelector('.h03');
+let m01 = document.querySelector('.m01');
 let body = document.querySelector('body');
 let loader = document.querySelector('.loader');
 
@@ -14,25 +12,13 @@ window.addEventListener('DOMContentLoaded', ()=>{
       setTimeout(()=>{
         body.classList.add('bnscroll')
         i01.classList.add('logofade');
-        h01.classList.add('logofade');
-        h02.classList.add('logofade');
+        m01.classList.add('logofade');
       },0)
-
-      setTimeout(()=>{
-        h03.classList.add('logofade');
-      },200)
-
-      setTimeout(()=>{
-          i01.classList.add('disti01' );
-          h02.classList.add('disti02' );
-          h03.classList.add('form01' );
-      },1000)
 
       setTimeout(()=>{
           $(loader).fadeOut(1000);
           body.classList.remove('bnscroll')
-      }, 2500)
-
+      }, 1500)
     }) 
 });
 
@@ -51,8 +37,10 @@ $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll >= $('#navchange').offset().top) {
     $('.nccolor').addClass('reverse');
+    $('.langbutton').addClass('reverse-font');
   } else {
     $('.nccolor').removeClass('reverse');
+    $('.langbutton').removeClass('reverse-font');
   }
 });
 
@@ -61,6 +49,13 @@ $('.circle').hover(function() {
   $('.circle').stop(true, false).toggleClass('cpassiv');
   $(this).stop(true, false).toggleClass('chover');
 });
+// click analysis
+$("#acbutton").click(function() {
+  $('html, body').animate({
+      scrollTop: $("#analysis").offset().top - 150
+  }, 2000);
+});
+
 
 // hover footer nav
 $('.fn-three').hover(function() {

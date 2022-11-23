@@ -198,7 +198,7 @@ header.home {
   background: url('../img/im-personal-coach-02.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   animation: slidefade ease-in-out 21s infinite;
   animation-delay: 5s;
   opacity: 0;

@@ -71,6 +71,7 @@ h1, h2, h3, p, a {
   color: #82643C;
   text-align: center;
   text-decoration: none;
+  word-break: break-all;
 }
 
 

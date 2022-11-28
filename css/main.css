@@ -858,7 +858,7 @@ footer {
   #impressum {padding: 0 7% 50px;}
 }
 @media only screen and (max-width: 480px) {
-  h1.pagetitle {font-size: 30px; letter-spacing: 0.5rem;}
+  h1.pagetitle {font-size: 26px; letter-spacing: 0.3rem;}
   /* nav */
   .nmfix {width: 100%; float: left;}
 }

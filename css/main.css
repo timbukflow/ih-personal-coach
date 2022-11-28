@@ -1,5 +1,5 @@
 /*
-    Theme Name: IH Personal Coach
+    Theme Name: IM Personal Coach
     Description: Personal Coach 
     Version: 1.0
     Author: Schwizer Design GmbH
@@ -71,6 +71,12 @@ h1, h2, h3, p, a {
   color: #82643C;
   text-align: center;
   text-decoration: none;
+
+  -moz-hyphens: auto;
+   -o-hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   hyphens: auto;
 }
 
 
@@ -852,6 +858,7 @@ footer {
   #impressum {padding: 0 7% 50px;}
 }
 @media only screen and (max-width: 480px) {
+  h1.pagetitle {font-size: 30px; letter-spacing: 0.5rem;}
   /* nav */
   .nmfix {width: 100%; float: left;}
 }

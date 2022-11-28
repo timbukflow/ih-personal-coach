@@ -37,7 +37,7 @@
         "movement-08-icon-sportsspecific" => "Специальные",
         "movement-08-icon-training" => "спортивные цели",
         "movement-09-icon-rehabilitation" => "реабилитация",
-        "movement-09-icon-training" => "t",
+        "movement-09-icon-training" => "",
         "movement-10-icon-vision" => "Тренировка",
         "movement-10-icon-training" => "зрения",
 

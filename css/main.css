@@ -859,6 +859,7 @@ footer {
 }
 @media only screen and (max-width: 480px) {
   h1.pagetitle {font-size: 26px; letter-spacing: 0.2rem;}
+  .description h1 {font-size: 17px;}
   /* nav */
   .nmfix {width: 100%; float: left;}
 }

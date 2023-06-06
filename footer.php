@@ -25,9 +25,9 @@
 </footer>
 <div id="impressum">
   <ul class="">
-    <li><a href="https://www.schwizerschlatter.com" target="_blank">Schwizer Design GmbH</a></li>
-		<li><a href="https://goo.gl/maps/ZL9cF1SMuHzRdcr69">Davidstrasse 45, 9000 St.Gallen</a></li>
-		<li><a href="https://www.schwizerschlatter.com" target="_blank">schwizerschlatter.com</a></li>
+    <li><a href="https://schwizerdesign.ch" target="_blank">Schwizer Design GmbH</a></li>
+		<li><a href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43, 9000 St.Gallen</a></li>
+		<li><a href="https://schwizerdesign.ch" target="_blank">schwizerdesign.ch</a></li>
     <li><a href="index">Copyright 2023 IM Personal Coach. All rights reserved</a></li>
 	</ul>
 </div>

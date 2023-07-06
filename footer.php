@@ -19,7 +19,7 @@
   </div>
 
   <div class="footerthree">
-    <a class="impressum" data-toggle="#impressum"><?php echo $lang['footer-impresumm'] ?></a>
+    <a class="impressum" data-target="#impressum"><?php echo $lang['footer-impresumm'] ?></a>
   </div>
 
 </footer>

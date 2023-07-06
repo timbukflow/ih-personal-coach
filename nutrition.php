@@ -1,6 +1,6 @@
 <?php include 'config-language.php'; ?>
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -50,12 +50,12 @@
           <p><?php echo $lang['nutrition-supplements-water-p'] ?></p>
           <img src="./img/cross-g.svg" alt="cross" width="20px" height="20px">
         </div>
-        <div class="supplus pos01" data-toggle="#supinfo01"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
-        <div class="supplus pos02" data-toggle="#supinfo02"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
-        <div class="supplus pos03" data-toggle="#supinfo03"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
-        <div class="supplus pos04" data-toggle="#supinfo04"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
-        <div class="supplus pos05" data-toggle="#supinfo05"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
-        <div class="supplus pos06" data-toggle="#supinfo06"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
+        <div class="supplus pos01" data-target="#supinfo01"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
+        <div class="supplus pos02" data-target="#supinfo02"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
+        <div class="supplus pos03" data-target="#supinfo03"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
+        <div class="supplus pos04" data-target="#supinfo04"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
+        <div class="supplus pos05" data-target="#supinfo05"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
+        <div class="supplus pos06" data-target="#supinfo06"><img src="./img/cross.svg" alt="cross" width="21" height="21"></div>
         <img class="nimg" src="./img/im-personal-coach-nutrition-02.jpg" alt="im-personal-coach-nutrition">
         <img class="nimg resphiden" src="./img/im-personal-coach-nutrition-lachs-01.jpg" alt="im-personal-coach-nutrition-lachs">
       </div>

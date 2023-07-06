@@ -84,7 +84,7 @@ $('.morebutton').click(function() {
 
 // hover
 $('.supplus').click(function() {
-  var suppmore = $(this).attr("data-toggle");
+  var suppmore = $(this).data("target");
   $('.supinfo').fadeOut(1000)
   $(suppmore).stop(true, false).fadeIn(1000);
 });
@@ -95,11 +95,10 @@ $('.supinfo').click(function() {
 // impressum
 
 $('.impressum').click(function() {
-  var totoggle = $(this).attr("data-toggle");
-  $(totoggle).slideToggle(500);
-  $(totoggle).next().hide();
-
-  if ($(totoggle).is(":visible")) {
-      $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
-  }
+  var $target = $($(this).data("target"));
+  $target.slideToggle(500, function() {
+      if ($target.is(":visible")) {
+          $('html,body').animate({scrollTop: $target.offset().top}, 600);
+      }
+  });
 });

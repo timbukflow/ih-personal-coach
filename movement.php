@@ -1,6 +1,6 @@
 <?php include 'config-language.php'; ?>
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
